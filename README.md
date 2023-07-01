@@ -14,5 +14,5 @@ Different types of tables are widely used by individual users or companies to st
 | [Large Language Models are Effective Table-to-Text Generators, Evaluators, and Feedback Providers](https://arxiv.org/abs/2305.14987) | 2023.5.24 on arxiv | Table-to-text |  |
 | [Enhancing Few-shot Text-to-SQL Capabilities of Large Language Models: A Study on Prompt Design Strategies](https://arxiv.org/abs/2305.12586) | 2023.5.21 on arxiv | Text-to-SQL | |
 | [SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models](https://arxiv.org/abs/2305.19308) | 20230.5.30 on arxiv | Manipulating SpreedSheets with LLM | |
-|[FLAME: A small language model for spreadsheet formulas](https://arxiv.org/abs/2301.13779) | 2023.1.31 on arxiv | Spreedsheet Formula Operation | |
+|[FLAME: A small language model for spreadsheet formulas](https://arxiv.org/abs/2301.13779) | 2023.1.31 on arxiv | Generating Excel Formulas | |
  
