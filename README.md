@@ -1,5 +1,12 @@
-# Paper List about "LLM + Table"
-Different types of tables are widely used by individual users or companies to store information. To automatically process amounts of tables and gain valuable insights, researchers have proposed a series of deep-learning models for various table-related tasks, e.g., table question answering (TQA) and table-to-text. Recently, the emerging Large Language Models (LLM) have opened up new possibilities for processing tabular data. **In this repository, we collect papers and applications on the combination of "LLM and table-related tasks"**, e.g., using LLM for TQA.
+# Paper-List-of-Tabular-Large-Language-Models
+Different types of tables are widely used by individual users or companies to store information. To automatically process amounts of tables and gain valuable insights, researchers have proposed a series of deep-learning models for various table-related tasks, e.g., table question answering (TQA) and table-to-text. Recently, the emerging Large Language Models (LLMs) have opened up new possibilities for processing tabular data. **In this repository, we collect papers about Tabular LLMs.** 
+
+Related works fall into three categories: 
+1. Directly utilizing LLM for typical tabular tasks, such as TQA and Table-to-text. 
+2. Enhancing LLM with external tools to process table data, for instance, developing copilot for spreedsheets. 
+3. Curating Datasets to evaluate LLM's table understanding ability, for instance, exploring the influence of table types."
+
+
 
 | Title | Conference and Time |  Task | Summary |
 | --- | --- | --- | --- |
