@@ -5,6 +5,7 @@ We divide related works into the following directions:
 1. [**Prompting off-the-shelf LLMs for table tasks**](#1-prompting-off-the-shelf-llms-for-table-tasks), e.g., in-context learning, prompt engineering and tool learning.
 2. [**Developing Tabular LLMs by fine-tuning or post-pretraining**](#2-developing-tabular-llms-by-fine-tuning-or-post-pretraining), e.g., training Table-GPTs or Table-Copilots for table processing.
 3. [**Evaluating the table understanding ability of current LLMs**](#3-evaluating-the-table-understanding-ability-of-current-llms), e.g., exploring the influence of various table types or table representations.
+4. [**Constructing Datasets for training LLMs**](#4-constructing-datasets-for-training-llms).e.g., instruction tuning data for table-related tasks.
 
 ## 1. Prompting off-the-shelf LLMs for table tasks
 | Title | Conference and Time |  Task | Summary |
@@ -40,5 +41,11 @@ We divide related works into the following directions:
 |[Evaluating the Text-to-SQL Capabilities of Large Language Models](https://arxiv.org/abs/2204.00498) | 2022.3.15 on arxiv | Text-to-SQL | |
 |[A comprehensive evaluation of ChatGPT's zero-shot Text-to-SQL capability](https://arxiv.org/abs/2303.13547) | 2023.3.12 on arxiv | Text-to-SQL | |
 |[RobuT: A Systematic Study of Table QA Robustness Against Human-Annotated Adversarial Perturbations](https://arxiv.org/abs/2306.14321) | ACL 2023 | TQA | |
+
+## 4. Constructing Datasets for training LLMs
+| Title | Conference and Time |  Task | Summary |
+| --- | --- | --- | --- |
+| [InstructExcel: A Benchmark for Natural Language Instruction in Excel](https://arxiv.org/abs/2310.14495) | Findings of EMNLP 2023 | Excel operations | |
+
 
  
