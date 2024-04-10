@@ -22,7 +22,7 @@ Different types of tables are widely used to store and present information. To a
 | Text-to-SQL | NL2SQL | Generate a SQL statement to answer the user question based on the database schema |
 | Tabular Mathematical Reasoning | TMR | Solving mathematical reasoning problems based on the table(s), e.g., solve math word problems related to a table |
 | Table-and-Text Question Answering | TAT-QA | Answering questions based on both table(s) and their related texts, e.g., answer questions given wikipedia tables and their surrounding texts. |
-| Table Interpretation | TI | Interpret basic table information, e.g., Column Type Annotation, Entity Linking, Relation Extraction, et al. |
+| Table Interpretation | TI | Interpret basic table content and structure information, e.g., column type annotation, entity linking, relation extraction, cell type classification et al. |
 | Table Augmentation | TA | Augment existing tables, e.g., schema augmentation, row population, et al. |
 ---
 
@@ -37,10 +37,15 @@ Different types of tables are widely used to store and present information. To a
 | [Large Language Model for Table Processing: A Survey](https://arxiv.org/abs/2402.05121) | arxiv | 2024-02-04  | 9 | 
 | [A Survey of Table Reasoning with Large Language Models](https://arxiv.org/abs/2402.08259) | arxiv | 2024-02-13 | 9 |
 | [Large Language Models(LLMs) on Tabular Data: Prediction, Generation, and Understanding -- A Survey](https://arxiv.org/abs/2402.17944) | arxiv | 2024-03-01 | 41 | 
+| [Transformers for Tabular Data Representation: A Survey of Models and Applications](https://aclanthology.org/2023.tacl-1.14/) | TACL 2023 | | 23 |
+| [Table Pre-training: A Survey on Model Architectures, Pre-training Objectives, and Downstream Tasks](https://arxiv.org/abs/2201.09745) | IJCAI 2022 | 2022-01-24 | 15 |
 
 ## 2. Prompting LLMs for tabular tasks
 | Title | Conference | Date |  Task | Code |
 | --- | :---: | :---: | :---: | --- |
+| [OpenTE: Open-Structure Table Extraction From Text](https://ieeexplore.ieee.org/abstract/document/10448427) | ICASSP 2024 |  | Text-to-Table Extraction |  |
+| [On Linearizing Structured Data in Encoder-Decoder Language Models: Insights from Text-to-SQL](https://arxiv.org/abs/2404.02389) |  NAACL 2024 | 2024-04-03 | NL2SQL |   | 
+| [MFORT-QA: Multi-hop Few-shot Open Rich Table Question Answering](https://arxiv.org/abs/2403.19116) | arxiv | 2024-03-28 | TQA |  |
 | ![Star](https://img.shields.io/github/stars/amazon-science/llm-open-domain-table-reasoner.svg?style=social&label=Star) <br> [OpenTab: Advancing Large Language Models as Open-domain Table Reasoners](https://arxiv.org/abs/2402.14361) | ICLR 2024 | 2024-02-22 | TQA,TFV | [Github](https://github.com/amazon-science/llm-open-domain-table-reasoner)  |
 | [CABINET: Content Relevance based Noise Reduction for Table Question Answering](https://arxiv.org/abs/2402.01155) | ICLR 2024 | 2024-02-02 | TQA |   |
 | ![Star](https://img.shields.io/github/stars/UCSB-NLP-Chang/Augment_tableQA.svg?style=social&label=Star) <br> [Augment before You Try: Knowledge-Enhanced Table Question Answering via Table Expansion](https://arxiv.org/abs/2401.15555) | arxiv | 2024-01-24 | TQA | [Github](https://github.com/UCSB-NLP-Chang/Augment_tableQA) |
@@ -52,6 +57,7 @@ Different types of tables are widely used to store and present information. To a
 | ![Star](https://img.shields.io/github/stars/RUCAIBox/StructGPT.svg?style=social&label=Star) <br>[StructGPT: A General Framework for Large Language Model to Reason over Structured Data](https://arxiv.org/abs/2305.09645) | EMNLP 2023 | 2023-05-16 | TQA, TFV  |  [Github](https://github.com/RUCAIBox/StructGPT)   | 
 | ![Star](https://img.shields.io/github/stars/lupantech/chameleon-llm.svg?style=social&label=Star) <br> [Chameleon：Plug-and-Play Compositional Reasoning with Large Language Models](https://arxiv.org/abs/2304.09842) | NIPS 2023 | 2023-04-19 | TMR | [Github](https://github.com/lupantech/chameleon-llm) |
 | [Generate, Transform, Answer: Question Specific Tool Synthesis for Tabular Data](https://arxiv.org/abs/2303.10138) | EMNLP 2023 | 2023-03-17 | TQA,NL2SQL  |   |
+| [DTT: An Example-Driven Tabular Transformer for Joinability by Leveraging Large Language Models](https://arxiv.org/abs/2303.06748) | SIGMOD 2024 | 2023-03-12 |  Table Transformation |   |
 | ![Star](https://img.shields.io/github/stars/AlibabaResearch/DAMO-ConvAI.svg?style=social&label=Star) <br> [Large Language Models are Versatile Decomposers：Decompose Evidence and Questions for Table-based Reasoning](https://arxiv.org/abs/2301.13808) | SIGIR 2023 | 2023-01-13 |  TQA, TFV | [Github](https://github.com/AlibabaResearch/DAMO-ConvAI)    |
 | ![Star](https://img.shields.io/github/stars/wenhuchen/Program-of-Thoughts.svg?style=social&label=Star) <br> [Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks](https://arxiv.org/abs/2211.12588) | TMLR 2023 | 2022-11-22  | TMR, TAT-QA | [Github](https://github.com/wenhuchen/Program-of-Thoughts)  |
 | ![Star](https://img.shields.io/github/stars/wenhuchen/TableCoT.svg?style=social&label=Star) <br> [Large Language Models are few(1)-shot Table Reasoners](https://arxiv.org/abs/2210.06710) | EACL 2023 Findings | 2022-10-13  | TQA, TFV | [Github](https://github.com/wenhuchen/TableCoT)  |
@@ -67,6 +73,9 @@ Different types of tables are widely used to store and present information. To a
 ## 3. Training LLMs for better table understanding
 | Title | Conference | Date |  Task | LLM Backbone  | Code |
 | --- | :---: | :---: | :---: | :---: | :---: |
+| [Unleashing the Potential of Large Language Models for Predictive Tabular Tasks in Data Science](https://arxiv.org/abs/2403.20208) | arxiv  | 2024-03-29 | Predictive Tabular Tasks | Llama2 7B | [HuggingFace](https://huggingface.co/OldBirdAZ/itab-llm) |
+| [HGT: Leveraging Heterogeneous Graph-enhanced Large Language Models for Few-shot Complex Table Understanding](https://arxiv.org/abs/2403.19723) | arxiv  | 2024-03-28 | TI,TQA | Vicuna-1.5 7B |  |
+| ![Star](https://img.shields.io/github/stars/RUCKBReasoning/TableLLM.svg?style=social&label=Star) <br> [TableLLM: Enabling Tabular Data Manipulation by LLMs in Real Office Usage Scenarios](https://arxiv.org/abs/2403.19318) | arxiv  | 2024-03-28 | Table Manipulation | CodeLlama 7B, 13B | [Github](https://github.com/RUCKBReasoning/TableLLM) |
 | ![Star](https://img.shields.io/github/stars/TIGER-AI-Lab/StructLM.svg?style=social&label=Star) <br> [StructLM: Towards Building Generalist Models for Structured Knowledge Grounding](https://arxiv.org/abs/2402.16671) | CoLM 2024 | 2024-02-26 | TQA,TFV,T2T,NL2SQL  | CodeLlama 7B-34B   | [Github](https://github.com/TIGER-AI-Lab/StructLM)  |
 | ![Star](https://img.shields.io/github/stars/OSU-NLP-Group/TableLlama.svg?style=social&label=Star) <br> [ TableLlama: Towards Open Large Generalist Models for Tables](https://arxiv.org/abs/2311.09206) | NAACL 2024 | 2023-11-15 | TQA,TFV,T2T,TA,TI  | Llama2 7B | [Github](https://github.com/OSU-NLP-Group/TableLlama)  |
 | [HELLaMA: LLaMA-based Table to Text Generation by Highlighting the Important Evidence](https://arxiv.org/abs/2311.08896)  | arxiv | 2023-11-15 | T2T | Llama2 7B-13B |  |
@@ -93,6 +102,7 @@ Different types of tables are widely used to store and present information. To a
 ## 5. Empirical study of LLMs' table understanding ability
 | Title | Conference | Date |  Task | Code |
 | --- | :---: | :---: | :---: | :---: |
+| [How Robust are the Tabular QA Models for Scientific Tables? A Study using Customized Dataset](https://arxiv.org/abs/2404.00401) | arxiv | 2024-03-20 | TQA| |
 | [Tables as Images? Exploring the Strengths and Limitations of LLMs on Multimodal Representations of Tabular Data](https://arxiv.org/abs/2402.12424) | arxiv | 2024-02-19 | TQA,TFV,T2T |  |
 | [Tabular Representation, Noisy Operators, and Impacts on Table Structure Understanding Tasks in LLMs](https://arxiv.org/abs/2310.10358) | arxiv | 2023-10-16 | Fact-Finding Tasks, Transformation Tasks  |    |
 |  ![Star](https://img.shields.io/github/stars/yale-nlp/LLM-T2T.svg?style=social&label=Star) <br> [Investigating Table-to-Text Generation Capabilities of LLMs in Real-World Information Seeking Scenarios](https://arxiv.org/abs/2305.14987) | EMNLP 2023 | 2023-05-24 | T2T | [Github](https://github.com/yale-nlp/LLM-T2T)   |
@@ -106,6 +116,7 @@ Different types of tables are widely used to store and present information. To a
 | Title | Conference | Date |  Task | Code |
 | --- | :---: | :---: | :---: | :---: |
 | ![Star](https://img.shields.io/github/stars/microsoft/InstructExcel.svg?style=social&label=Star) <br> [InstructExcel: A Benchmark for Natural Language Instruction in Excel](https://arxiv.org/abs/2310.14495) | Findings of EMNLP 2023 |  2023-10-23 | Excel operations | [Github](https://github.com/microsoft/InstructExcel) |
+| ![Star](https://img.shields.io/github/stars/dylan-slack/Tablet.svg?style=social&label=Star) <br> [TABLET: Learning From Instructions For Tabular Data](https://arxiv.org/abs/2304.13188) | arxiv | 2024-04-25 |    |  [Github](https://github.com/dylan-slack/Tablet)   |
 
 
  
