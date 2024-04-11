@@ -116,7 +116,7 @@ Different types of tables are widely used to store and present information. To a
 | Title | Conference | Date |  Task | Code |
 | --- | :---: | :---: | :---: | :---: |
 | ![Star](https://img.shields.io/github/stars/microsoft/InstructExcel.svg?style=social&label=Star) <br> [InstructExcel: A Benchmark for Natural Language Instruction in Excel](https://arxiv.org/abs/2310.14495) | Findings of EMNLP 2023 |  2023-10-23 | Excel operations | [Github](https://github.com/microsoft/InstructExcel) |
-| ![Star](https://img.shields.io/github/stars/dylan-slack/Tablet.svg?style=social&label=Star) <br> [TABLET: Learning From Instructions For Tabular Data](https://arxiv.org/abs/2304.13188) | arxiv | 2024-04-25 |    |  [Github](https://github.com/dylan-slack/Tablet)   |
+| ![Star](https://img.shields.io/github/stars/dylan-slack/Tablet.svg?style=social&label=Star) <br> [TABLET: Learning From Instructions For Tabular Data](https://arxiv.org/abs/2304.13188) | arxiv | 2023-04-25 |    |  [Github](https://github.com/dylan-slack/Tablet)   |
 
 
  
