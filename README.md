@@ -91,8 +91,10 @@ Different types of tables are widely used to store and present information. To a
 ## 4. Developing agents for diverse tabular data
 | Title | Conference | Date |  Task | Code |
 | --- | :---: | :---: | :---: | :---: |
-| ![Star](https://img.shields.io/github/stars/wshi83/EhrAgent.svg?style=social&label=Star) <br> [EHRAgent: Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic Health Records](https://arxiv.org/pdf/2401.07128.pdf) | arxiv | 2024-01-13 | TQA | [Github](https://github.com/wshi83/EhrAgent)
 | [SheetAgent: A Generalist Agent for Spreadsheet Reasoning and Manipulation via Large Language Models](https://arxiv.org/abs/2403.03636) | arxiv | 2024-03-06 | Manipulating Excels with LLM | [Github](https://github.com/sheetagent/sheetagent.github.io) |
+| ![Star](https://img.shields.io/github/stars/wshi83/EhrAgent.svg?style=social&label=Star) <br> [EHRAgent: Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic Health Records](https://arxiv.org/pdf/2401.07128.pdf) | arxiv | 2024-01-13 | TQA | [Github](https://github.com/wshi83/EhrAgent) |
+| ![Star](https://img.shields.io/github/stars/InfiAgent/InfiAgent.svg?style=social&label=Star) <br> [InfiAgent-DABench: Evaluating Agents on Data Analysis Tasks](https://arxiv.org/abs/2401.05507) | arxiv | 2024-01-10 | Data Analysis | [Github](https://github.com/InfiAgent/InfiAgent) |
+| ![Star](https://img.shields.io/github/stars/eosphoros-ai/DB-GPT.svg?style=social&label=Star) <br> [DB-GPT: Empowering Database Interactions with Private Large Language Models](https://arxiv.org/abs/2312.17449) | arxiv | 2023-12-29 | Data Analysis | [Github](https://github.com/eosphoros-ai/DB-GPT) |
 | [ReAcTable: Enhancing ReAct for Table Question Answering](https://arxiv.org/abs/2310.00815) | arxiv | 2023-10-01 | TQA | |
 | ![Star](https://img.shields.io/github/stars/BraveGroup/SheetCopilot.svg?style=social&label=Star) <br>[SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models](https://arxiv.org/abs/2305.19308) |NIPS 2023  |2023-05-30 | Manipulating Excels with LLM | [Github](https://github.com/BraveGroup/SheetCopilot)  |
 | [TableGPT: Towards Unifying Tables, Nature Language and Commands into One GPT](https://arxiv.org/abs/2307.08674) | arxiv | 2023-07-17 | Manipulating CSV table with LLM | |
