@@ -9,7 +9,8 @@ Different types of tables are widely used to store and present information. To a
 3. [**Training LLMs for better table understanding**](#3-training-llms-for-better-table-understanding), e.g., training existing LLMs by instruction fine-tuning or post-pretraining.
 4. [**Developing agents for diverse tabular data**](#4-developing-agents-for-diverse-tabular-data), e.g., devolping copilot for processing excel tables.
 5. [**Empirical study of LLMs' table understanding ability**](#5-empirical-study-of-llms-table-understanding-ability), e.g., exploring the influence of various table types or table formats.
-6. [**Datasets for Tabular LLMs**](#6-datasets-for-tabular-llms), e.g., instruction tuning data for table-based tasks.
+6. [**Multimodal table understanding**](#6-multimodal-table-understanding), e.g., training MLLMs to understand diverse table images and textual user requests.
+7. [**Datasets for Tabular LLMs**](#7-datasets-or-benchmarks-for-tabular-llms), e.g., instruction tuning data for table-based tasks.
 ---
 
 <font size=8><center><b> Task Names and  Abbreviations: </b> </center></font>
@@ -114,8 +115,13 @@ Different types of tables are widely used to store and present information. To a
 | ![Star](https://img.shields.io/github/stars/THU-BPM/chatgpt-sql.svg?style=social&label=Star) <br> [A comprehensive evaluation of ChatGPT's zero-shot Text-to-SQL capability](https://arxiv.org/abs/2303.13547) | arxiv |  2023-03-12 | NL2SQL |  [Github](https://github.com/THU-BPM/chatgpt-sql) |
 | ![Star](https://img.shields.io/github/stars/yilunzhao/RobuT.svg?style=social&label=Star) <br> [RobuT: A Systematic Study of Table QA Robustness Against Human-Annotated Adversarial Perturbations](https://arxiv.org/abs/2306.14321) | ACL 2023 | 2023-06-25  |TQA | [Github](https://github.com/yilunzhao/RobuT) |
 
+## 6. Multimodal Table Understanding
+| Title | Conference | Date |  Task | Code |
+| --- | :---: | :---: | :---: | :---: |
+| ![Star](https://img.shields.io/github/stars/naver-ai/tablevqabench.svg?style=social&label=Star) <br> [TableVQA-Bench: A Visual Question Answering Benchmark on Multiple Table Domains](https://arxiv.org/abs/2404.19205) | arxiv  | 2024-0430 | TQA, TFV | [Github](https://github.com/naver-ai/tablevqabench) |
+| [Multimodal Table Understanding](https://openreview.net/forum?id=K_rRf5lf96t) | ARR preprint  | 2024-0215 | TQA, TFV, T2T, TI, TAT-QA, TMR |  |
 
-## 6. Datasets for Tabular LLMs
+## 7. Datasets or Benchmarks for Tabular LLMs
 | Title | Conference | Date |  Task | Code |
 | --- | :---: | :---: | :---: | :---: |
 | ![Star](https://img.shields.io/github/stars/microsoft/InstructExcel.svg?style=social&label=Star) <br> [InstructExcel: A Benchmark for Natural Language Instruction in Excel](https://arxiv.org/abs/2310.14495) | Findings of EMNLP 2023 |  2023-10-23 | Excel operations | [Github](https://github.com/microsoft/InstructExcel) |
