@@ -67,12 +67,15 @@ Different types of tables are widely used to store and present information. To a
 
 
 ## 3. Training LLMs for Better Table Understanding Ability
+
+
 | Title | Conference | Date |  Task | LLM Backbone  | Code |
 | --- | :---: | :---: | :---: | :---: | :---: |
 | [Unleashing the Potential of Large Language Models for Predictive Tabular Tasks in Data Science](https://arxiv.org/abs/2403.20208) | arxiv  | 2024-03-29 | Predictive Tabular Tasks | Llama2 7B | [HuggingFace](https://huggingface.co/OldBirdAZ/itab-llm) |
 | [HGT: Leveraging Heterogeneous Graph-enhanced Large Language Models for Few-shot Complex Table Understanding](https://arxiv.org/abs/2403.19723) | arxiv  | 2024-03-28 | TI,TQA | Vicuna-1.5 7B |  |
 | ![Star](https://img.shields.io/github/stars/RUCKBReasoning/TableLLM.svg?style=social&label=Star) <br> [TableLLM: Enabling Tabular Data Manipulation by LLMs in Real Office Usage Scenarios](https://arxiv.org/abs/2403.19318) | arxiv  | 2024-03-28 | Table Manipulation | CodeLlama 7B, 13B | [Github](https://github.com/RUCKBReasoning/TableLLM) |
 | ![Star](https://img.shields.io/github/stars/TIGER-AI-Lab/StructLM.svg?style=social&label=Star) <br> [StructLM: Towards Building Generalist Models for Structured Knowledge Grounding](https://arxiv.org/abs/2402.16671) | CoLM 2024 | 2024-02-26 | TQA,TFV,T2T,NL2SQL  | CodeLlama 7B-34B   | [Github](https://github.com/TIGER-AI-Lab/StructLM)  |
+| ![Star](https://img.shields.io/github/stars/fengbinzhu/TAT-LLM.svg?style=social&label=Star) <br> [TAT-LLM: A Specialized Language Model for Discrete Reasoning over Tabular and Textual Data](https://arxiv.org/abs/2401.13223) | arxiv | 2024-01-24 | TQA | LLaMA2 7B, 13B, 70B | [Github](https://github.com/fengbinzhu/TAT-LLM) |
 | ![Star](https://img.shields.io/github/stars/OSU-NLP-Group/TableLlama.svg?style=social&label=Star) <br> [TableLlama: Towards Open Large Generalist Models for Tables](https://arxiv.org/abs/2311.09206) | NAACL 2024 | 2023-11-15 | TQA,TFV,T2T,TA,TI  | Llama2 7B | [Github](https://github.com/OSU-NLP-Group/TableLlama)  |
 | [HELLaMA: LLaMA-based Table to Text Generation by Highlighting the Important Evidence](https://arxiv.org/abs/2311.08896)  | arxiv | 2023-11-15 | T2T | Llama2 7B-13B |  |
 | [Table-GPT: Table-tuned GPT for Diverse Table Tasks](https://arxiv.org/abs/2310.09263)   | arxiv  | 2023-10-13  | All kinds of table task  | GPT-3.5, ChatGPT |   |
@@ -121,4 +124,4 @@ Different types of tables are widely used to store and present information. To a
 | ![Star](https://img.shields.io/github/stars/SpursGoZmy/Table-LLaVA.svg?style=social&label=Star) <br> [Multimodal Table Understanding](https://arxiv.org/abs/2406.08100) | ACL 2024  | 2024-02-15 | TQA, TFV, T2T, TI, TAT-QA, TMR | [Github](https://github.com/SpursGoZmy/Table-LLaVA)   |
 
 
- 
+
