@@ -40,6 +40,11 @@ Different types of tables are widely used to store and present information. To a
 ## 2. Prompting LLMs for Different Tabular Tasks
 | Title | Conference | Date |  Task | Code |
 | --- | :---: | :---: | :---: | --- |
+| ![Star](https://img.shields.io/github/stars/Hanzhang-lang/ALTER.svg?style=social&label=Star) <br> [ALTER: Augmentation for Large-Table-Based Reasoning](https://arxiv.org/abs/2407.03061) | arxiv | 2024-07-03 | TQA | |
+| [TrustUQA: A Trustful Framework for Unified Structured Data Question Answering](https://arxiv.org/abs/2406.18916) | arxiv | 2024-06-27 | TQA | |
+| [Adapting Knowledge for Few-shot Table-to-Text Generation](https://arxiv.org/abs/2302.12468) | arxiv | 2024-03-27 |  T2T | |
+| [Graph Reasoning Enhanced Language Models for Text-to-SQL](https://dl.acm.org/doi/abs/10.1145/3626772.3657961) | SIGIR 2024 | | NL2SQL | |
+| [NormTab: Improving Symbolic Reasoning in LLMs Through Tabular Data Normalization](https://arxiv.org/abs/2406.17961) | arxiv | 2024-06-25 | TQA,TFV | |
 | [Improving Factual Accuracy of Neural Table-to-Text Output by Addressing Input Problems in ToTTo](https://arxiv.org/abs/2404.04103) | NAACL 2024 | 2024-04-05 | T2T | |
 | [TabSQLify: Enhancing Reasoning Capabilities of LLMs Through Table Decomposition](https://arxiv.org/abs/2404.10150) | NAACL 2024 |  |TQA,TFV |    |
 | ![Star](https://img.shields.io/github/stars/zzh-SJTU/E5-Hierarchical-Table-Analysis.svg?style=social&label=Star) <br> [E5: Zero-shot Hierarchical Table Analysis using Augmented LLMs via Explain, Extract, Execute, Exhibit and Extrapolate](https://aclanthology.org/2024.naacl-long.68/) | NAACL 2024 |  | TQA on hierarchical tables | [Github](https://github.com/zzh-SJTU/E5-Hierarchical-Table-Analysis) |
@@ -71,6 +76,7 @@ Different types of tables are widely used to store and present information. To a
 
 | Title | Conference | Date |  Task | LLM Backbone  | Code |
 | --- | :---: | :---: | :---: | :---: | :---: |
+| [SpreadsheetLLM: Encoding Spreadsheets for Large Language Models](https://arxiv.org/abs/2407.09025) | arxiv | 2024-07-12 | Excel Manipulation |   | |
 | [Unleashing the Potential of Large Language Models for Predictive Tabular Tasks in Data Science](https://arxiv.org/abs/2403.20208) | arxiv  | 2024-03-29 | Predictive Tabular Tasks | Llama2 7B | [HuggingFace](https://huggingface.co/OldBirdAZ/itab-llm) |
 | [HGT: Leveraging Heterogeneous Graph-enhanced Large Language Models for Few-shot Complex Table Understanding](https://arxiv.org/abs/2403.19723) | arxiv  | 2024-03-28 | TI,TQA | Vicuna-1.5 7B |  |
 | ![Star](https://img.shields.io/github/stars/RUCKBReasoning/TableLLM.svg?style=social&label=Star) <br> [TableLLM: Enabling Tabular Data Manipulation by LLMs in Real Office Usage Scenarios](https://arxiv.org/abs/2403.19318) | arxiv  | 2024-03-28 | Table Manipulation | CodeLlama 7B, 13B | [Github](https://github.com/RUCKBReasoning/TableLLM) |
@@ -78,7 +84,7 @@ Different types of tables are widely used to store and present information. To a
 | ![Star](https://img.shields.io/github/stars/fengbinzhu/TAT-LLM.svg?style=social&label=Star) <br> [TAT-LLM: A Specialized Language Model for Discrete Reasoning over Tabular and Textual Data](https://arxiv.org/abs/2401.13223) | arxiv | 2024-01-24 | TQA | Llama2 7B, 13B, 70B | [Github](https://github.com/fengbinzhu/TAT-LLM) |
 | ![Star](https://img.shields.io/github/stars/OSU-NLP-Group/TableLlama.svg?style=social&label=Star) <br> [TableLlama: Towards Open Large Generalist Models for Tables](https://arxiv.org/abs/2311.09206) | NAACL 2024 | 2023-11-15 | TQA,TFV,T2T,TA,TI  | Llama2 7B | [Github](https://github.com/OSU-NLP-Group/TableLlama)  |
 | [HELLaMA: LLaMA-based Table to Text Generation by Highlighting the Important Evidence](https://arxiv.org/abs/2311.08896)  | arxiv | 2023-11-15 | T2T | Llama2 7B-13B |  |
-| [Table-GPT: Table-tuned GPT for Diverse Table Tasks](https://arxiv.org/abs/2310.09263)   | arxiv  | 2023-10-13  | All kinds of table task  | GPT-3.5, ChatGPT |   |
+| [Table-GPT: Table-tuned GPT for Diverse Table Tasks](https://arxiv.org/abs/2310.09263)   | arxiv  | 2023-10-13  | TQA | GPT-3.5, ChatGPT |   |
 
 ### Pre-trained Tabular Language Models (non-LLM)
 | Title | Conference | Date |  Task | Code |
