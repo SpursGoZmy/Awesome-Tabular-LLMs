@@ -40,7 +40,8 @@ Different types of tables are widely used to store and present information. To a
 ## 2. Prompting LLMs for Different Tabular Tasks
 | Title | Conference | Date |  Task | Code |
 | --- | :---: | :---: | :---: | --- |
-| [Learning Relational Decomposition of Queries for Question Answering from Tables](https://aclanthology.org/2024.acl-long.564/) | ACL 2024 |  | TQA | | [Github](https://github.com/RaphaelMouravieff/Partial-Exec)
+| ![Star](https://img.shields.io/github/stars/rllm-team/rllm.svg?style=social&label=Star) <br/>[rLLM: Relational Table Learning with LLMs](https://arxiv.org/abs/2407.20157) | arxiv | 2024-07-29 |  | [Github](https://github.com/rllm-team/rllm) |
+| [Learning Relational Decomposition of Queries for Question Answering from Tables](https://aclanthology.org/2024.acl-long.564/) | ACL 2024 |  | TQA | |
 | [TaPERA: Enhancing Faithfulness and Interpretability in Long-Form Table QA by Content Planning and Execution-based Reasoning](https://aclanthology.org/2024.acl-long.692/) | ACL 2024 |  | TQA |  |
 | [Enhancing Temporal Understanding in LLMs for Semi-structured Tables](https://arxiv.org/abs/2407.16030) | arxiv | 2024-07-22 | Temporal TQA | |
 | ![Star](https://img.shields.io/github/stars/Hanzhang-lang/ALTER.svg?style=social&label=Star) <br> [ALTER: Augmentation for Large-Table-Based Reasoning](https://arxiv.org/abs/2407.03061) | arxiv | 2024-07-03 | TQA | [Github](https://github.com/Hanzhang-lang/ALTER) |
@@ -52,7 +53,7 @@ Different types of tables are widely used to store and present information. To a
 | [TabSQLify: Enhancing Reasoning Capabilities of LLMs Through Table Decomposition](https://arxiv.org/abs/2404.10150) | NAACL 2024 |  |TQA,TFV |    |
 | ![Star](https://img.shields.io/github/stars/zzh-SJTU/E5-Hierarchical-Table-Analysis.svg?style=social&label=Star) <br> [E5: Zero-shot Hierarchical Table Analysis using Augmented LLMs via Explain, Extract, Execute, Exhibit and Extrapolate](https://aclanthology.org/2024.naacl-long.68/) | NAACL 2024 |  | TQA on hierarchical tables | [Github](https://github.com/zzh-SJTU/E5-Hierarchical-Table-Analysis) |
 | [OpenTE: Open-Structure Table Extraction From Text](https://ieeexplore.ieee.org/abstract/document/10448427) | ICASSP 2024 |  | Text-to-Table Extraction |  |
-| [On Linearizing Structured Data in Encoder-Decoder Language Models: Insights from Text-to-SQL](https://arxiv.org/abs/2404.02389) |  NAACL 2024 | 2024-04-03 | NL2SQL |   | 
+| [On Linearizing Structured Data in Encoder-Decoder Language Models: Insights from Text-to-SQL](https://arxiv.org/abs/2404.02389) |  NAACL 2024 | 2024-04-03 | NL2SQL |   |
 | [MFORT-QA: Multi-hop Few-shot Open Rich Table Question Answering](https://arxiv.org/abs/2403.19116) | arxiv | 2024-03-28 | TQA |  |
 | ![Star](https://img.shields.io/github/stars/amazon-science/llm-open-domain-table-reasoner.svg?style=social&label=Star) <br> [OpenTab: Advancing Large Language Models as Open-domain Table Reasoners](https://arxiv.org/abs/2402.14361) | ICLR 2024 | 2024-02-22 | TQA,TFV | [Github](https://github.com/amazon-science/llm-open-domain-table-reasoner)  |
 | [CABINET: Content Relevance based Noise Reduction for Table Question Answering](https://arxiv.org/abs/2402.01155) | ICLR 2024 | 2024-02-02 | TQA |   |
@@ -63,7 +64,7 @@ Different types of tables are widely used to store and present information. To a
 | [API-Assisted Code Generation for Question Answering on Varied Table Structures](https://arxiv.org/abs/2310.14687) | EMNLP 2023 | 2023-10-23 | TQA  |   |
 | ![Star](https://img.shields.io/github/stars/lfy79001/TableQAKit.svg?style=social&label=Star) <br> [TableQAKit: A Comprehensive and Practical Toolkit for Table-based Question Answering](https://arxiv.org/abs/2310.15075) | arxiv | 2023-10-23 | TQA,NL2SQL  | [Github](https://github.com/lfy79001/TableQAKit)  |
 | [Enhancing Few-shot Text-to-SQL Capabilities of Large Language Models: A Study on Prompt Design Strategies](https://arxiv.org/abs/2305.12586) | arxiv |  2023-05-21 | NL2SQL |  |
-| ![Star](https://img.shields.io/github/stars/RUCAIBox/StructGPT.svg?style=social&label=Star) <br>[StructGPT: A General Framework for Large Language Model to Reason over Structured Data](https://arxiv.org/abs/2305.09645) | EMNLP 2023 | 2023-05-16 | TQA, TFV  |  [Github](https://github.com/RUCAIBox/StructGPT)   | 
+| ![Star](https://img.shields.io/github/stars/RUCAIBox/StructGPT.svg?style=social&label=Star) <br>[StructGPT: A General Framework for Large Language Model to Reason over Structured Data](https://arxiv.org/abs/2305.09645) | EMNLP 2023 | 2023-05-16 | TQA, TFV  |  [Github](https://github.com/RUCAIBox/StructGPT)   |
 | ![Star](https://img.shields.io/github/stars/lupantech/chameleon-llm.svg?style=social&label=Star) <br> [Chameleon：Plug-and-Play Compositional Reasoning with Large Language Models](https://arxiv.org/abs/2304.09842) | NIPS 2023 | 2023-04-19 | TMR | [Github](https://github.com/lupantech/chameleon-llm) |
 | [Generate, Transform, Answer: Question Specific Tool Synthesis for Tabular Data](https://arxiv.org/abs/2303.10138) | EMNLP 2023 | 2023-03-17 | TQA,NL2SQL  |   |
 | [DTT: An Example-Driven Tabular Transformer for Joinability by Leveraging Large Language Models](https://arxiv.org/abs/2303.06748) | SIGMOD 2024 | 2023-03-12 |  Table Transformation |   |
