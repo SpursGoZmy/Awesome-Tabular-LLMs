@@ -79,6 +79,7 @@ Different types of tables are widely used to store and present information. To a
 
 | Title | Conference | Date |  Task | LLM Backbone  | Code |
 | --- | :---: | :---: | :---: | :---: | :---: |
+| ![Star](https://img.shields.io/github/stars/rllm-team/rllm.svg?style=social&label=Star) <br/>[rLLM: Relational Table Learning with LLMs](https://arxiv.org/abs/2407.20157) | arxiv | 2024-07-29 | multi-table joint learning tasks | a PyTorch library designed for Relational Table Learning (RTL) with Large Language Models (LLMs).    |  [Github](https://github.com/rllm-team/rllm) |
 | ![Star](https://img.shields.io/github/stars/basf/mamba-tabular.svg?style=social&label=Star) <br> [Mambular: A Sequential Model for Tabular Deep Learning](https://arxiv.org/abs/2408.06291) | arxiv | 2024-08-12 | ML Classification and Regression tasks like California Housing | Mamba | [Github](https://github.com/basf/mamba-tabular)
 | [MambaTab: A Plug-and-Play Model for Learning Tabular Data](https://arxiv.org/abs/2401.08867) | MIPR 2024 | 2024-01-16 | ML Classification tasks | Mamba |  | 
 | [SpreadsheetLLM: Encoding Spreadsheets for Large Language Models](https://arxiv.org/abs/2407.09025) | arxiv | 2024-07-12 | Excel Manipulation |   | |
