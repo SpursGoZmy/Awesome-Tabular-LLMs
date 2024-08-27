@@ -10,6 +10,7 @@ Different types of tables are widely used to store and present information. To a
 4. [**Developing agents for processing tabular data**](#4-developing-agents-for-processing-tabular-data), e.g., devolping copilot for processing excel tables.
 5. [**Empirical study or benchmarks for evaluating LLMs' table understanding ability**](#5-empirical-study-or-benchmarks-for-evaluating-llms-table-understanding-ability), e.g., exploring the influence of various table types or table formats.
 6. [**Multimodal table understanding**](#6-multimodal-table-understanding), e.g., training MLLMs to understand diverse table images and textual user requests.
+7. [**Table Understanding datasets**](#7-table-understanding-datasets), e.g., valuable datasets for model training and evaluation.
 ---
 
 <font size=8><center><b> Task Names and  Abbreviations: </b> </center></font>
@@ -31,6 +32,7 @@ Different types of tables are widely used to store and present information. To a
 ## 1. Survey of Tabular LLMs and Table Understanding
 | Title | Conference | Date  | Pages |
 | ------ | :---: | :---: | :---: |
+| [Language Modeling on Tabular Data: A Survey of Foundations, Techniques and Evolution](https://arxiv.org/abs/2408.10548) | arxiv | 2024-08-20 | 49 |
 | [Large Language Model for Table Processing: A Survey](https://arxiv.org/abs/2402.05121) | arxiv | 2024-02-04  | 9 | 
 | [A Survey of Table Reasoning with Large Language Models](https://arxiv.org/abs/2402.08259) | arxiv | 2024-02-13 | 9 |
 | [Large Language Models(LLMs) on Tabular Data: Prediction, Generation, and Understanding -- A Survey](https://arxiv.org/abs/2402.17944) | arxiv | 2024-03-01 | 41 | 
@@ -40,6 +42,7 @@ Different types of tables are widely used to store and present information. To a
 ## 2. Prompting LLMs for Different Tabular Tasks
 | Title | Conference | Date |  Task | Code |
 | --- | :---: | :---: | :---: | --- |
+| ![Star](https://img.shields.io/github/stars/zhxlia/FLEXTAF.svg?style=social&label=Star) <br> [FLEXTAF: Enhancing Table Reasoning with Flexible Tabular Formats](https://arxiv.org/abs/2408.08841) | arxiv | 2024-08-16 | TQA, TFV | [Github](https://github.com/zhxlia/FLEXTAF) |
 | [Learning Relational Decomposition of Queries for Question Answering from Tables](https://aclanthology.org/2024.acl-long.564/) | ACL 2024 |  | TQA | | [Github](https://github.com/RaphaelMouravieff/Partial-Exec)
 | [TaPERA: Enhancing Faithfulness and Interpretability in Long-Form Table QA by Content Planning and Execution-based Reasoning](https://aclanthology.org/2024.acl-long.692/) | ACL 2024 |  | TQA |  |
 | [Enhancing Temporal Understanding in LLMs for Semi-structured Tables](https://arxiv.org/abs/2407.16030) | arxiv | 2024-07-22 | Temporal TQA | |
@@ -135,6 +138,16 @@ Different types of tables are widely used to store and present information. To a
 | ![Star](https://img.shields.io/github/stars/naver-ai/tablevqabench.svg?style=social&label=Star) <br> [TableVQA-Bench: A Visual Question Answering Benchmark on Multiple Table Domains](https://arxiv.org/abs/2404.19205) | arxiv  | 2024-04-30 | TQA, TFV | [Github](https://github.com/naver-ai/tablevqabench) |
 | [Tables as Texts or Images: Evaluating the Table Reasoning Ability of LLMs and MLLMs](https://arxiv.org/abs/2402.12424) | ACL 2024 | 2024-02-19 | TQA,TFV,T2T | |
 | ![Star](https://img.shields.io/github/stars/SpursGoZmy/Table-LLaVA.svg?style=social&label=Star) <br> [Multimodal Table Understanding](https://arxiv.org/abs/2406.08100) | ACL 2024  | 2024-02-15 | TQA, TFV, T2T, TI, TAT-QA, TMR | [Github](https://github.com/SpursGoZmy/Table-LLaVA)   |
+
+## 7. Table Understanding Datasets
+### 7.1 Recent Datasets for LLMs
+| Title | Conference | Date | Task | Data Volume | Domain | Table Type | Data and Code |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [ENTRANT: A Large Financial Dataset for Table Understanding](https://www.nature.com/articles/s41597-024-03605-5) | Sci Data | 2024-07-04 | Cell Type Classification, Header Extraction, et al | Millions of tables with cell attributes, as well as positional and hierarchical information | Financial | Flat tables and hierarchical tables | [Github](https://github.com/iit-Demokritos/entrant?tab=readme-ov-file#data) |
+| [TableBench: A Comprehensive and Complex Benchmark for Table Question Answering](https://arxiv.org/abs/2408.09174) | arxiv | 2024-08-17 | TMR, TFV, Trend Forecasting and Chart Generation | 3681 tables and 20K samples | Collect tables from academic datasets like WTQ and FeTaQA | Flat tables and a small number of hierarchical tables | [Github](https://tablebench.github.io/) |
+| [DocTabQA: Answering Questions from Long Documents Using Tables](https://arxiv.org/abs/2408.11490) | arxiv | 2024-08-21 | Table Generation based on question and document | 300 documents and 1.5k question-table pairs | Financial | Flat tables and hierarchical tables | [Github](https://github.com/SmileWHC/DocTabQA) |
+
+### 7.2 Classic Datasets of Downstream Table Tasks
 
 
 
