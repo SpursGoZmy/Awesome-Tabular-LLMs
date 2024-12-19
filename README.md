@@ -44,6 +44,9 @@ Different types of tables are widely used to store and present information. To a
 ## 2. Prompting LLMs for Different Tabular Tasks
 | Title | Conference | Date |  Task | Code |
 | --- | :---: | :---: | :---: | --- |
+| [Retrieval & Fine-Tuning for In-Context Tabular Models](https://arxiv.org/abs/2406.05207) | NIPS 2024 | 2024-06-07 | Machine learning tasks with tabular data | |
+| ![Star](https://img.shields.io/github/stars/JDing0521/GraphOTTER.svg?style=social&label=Star) <br> [GraphOTTER: Evolving LLM-based Graph Reasoning for Complex Table Question Answering](https://arxiv.org/abs/2412.01230) | COLING 2025 | 2024-12-02 | TQA | |
+| [PoTable: Programming Standardly on Table-based Reasoning Like a Human Analyst](https://arxiv.org/abs/2412.04272) | arxiv | 2024-12-05 | TQA, TFV | |
 | [Unveiling Implicit Table Knowledge with Question-Then-Pinpoint Reasoner for Insightful Table Summarization](https://arxiv.org/abs/2406.12269) | EMNLP 2024 Findings | 2024-06-18 | Table Summarization | | 
 | [TKGT: Redefinition and A New Way of Text-to-Table Tasks Based on Real World Demands and Knowledge Graphs Augmented LLMs](https://openreview.net/forum?id=cfMRTgLYSf) | EMNLP 2024 | | Text2Table | |
 | [Text-Tuple-Table: Towards Information Integration in Text-to-Table Generation via Global Tuple Extraction](https://arxiv.org/abs/2404.14215) | EMNLP 2024 | 2024-04-22 | Text2Table | [Github](https://github.com/HKUST-KnowComp/LiveSum) | 
@@ -88,6 +91,7 @@ Different types of tables are widely used to store and present information. To a
 
 | Title | Conference | Date |  Task | LLM Backbone  | Code |
 | --- | :---: | :---: | :---: | :---: | :---: |
+| [Large Scale Transfer Learning for Tabular Data via Language Modeling](https://arxiv.org/abs/2406.12031) | NIPS 2024 | 2024-06-17 | tabular data prediction (classification and binned regression) | Llama 3-8B | |
 | [ProTrix: Building Models for Planning and Reasoning over Tables with Sentence Context](https://arxiv.org/abs/2403.02177) | EMNLP 2024 Findings | 2024-03-04 | TQA, TFV | Llama-2 | [Github](https://github.com/WilliamZR/ProTrix) | 
 | [UniTabNet: Bridging Vision and Language Models for Enhanced Table Structure Recognition](https://arxiv.org/abs/2409.13148) | EMNLP 2024 Findings | 2024-09-20 | Table Recognition | |
 | [Table Question Answering for Low-resourced Indic Languages](https://arxiv.org/abs/2410.03576) | EMNLP 2024 | 2024-10-04 | Indian TQA | mBART | [Github](https://github.com/kolk/Low-Resource-TableQA-Indic-languages) | 
@@ -119,7 +123,7 @@ Different types of tables are widely used to store and present information. To a
 | ![Star](https://img.shields.io/github/stars/InfiAgent/InfiAgent.svg?style=social&label=Star) <br> [InfiAgent-DABench: Evaluating Agents on Data Analysis Tasks](https://arxiv.org/abs/2401.05507) | arxiv | 2024-01-10 | Data Analysis | [Github](https://github.com/InfiAgent/InfiAgent) |
 | ![Star](https://img.shields.io/github/stars/eosphoros-ai/DB-GPT.svg?style=social&label=Star) <br> [DB-GPT: Empowering Database Interactions with Private Large Language Models](https://arxiv.org/abs/2312.17449) | arxiv | 2023-12-29 | Data Analysis | [Github](https://github.com/eosphoros-ai/DB-GPT) |
 | [ReAcTable: Enhancing ReAct for Table Question Answering](https://arxiv.org/abs/2310.00815) | arxiv | 2023-10-01 | TQA | |
-| ![Star](https://img.shields.io/github/stars/BraveGroup/SheetCopilot.svg?style=social&label=Star) <br>[SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models](https://arxiv.org/abs/2305.19308) |NIPS 2023  |2023-05-30 | Manipulating Excels with LLM | [Github](https://github.com/BraveGroup/SheetCopilot)  |
+| ![Star](https://img.shields.io/github/stars/BraveGroup/SheetCopilot.svg?style=social&label=Star) <br>[SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models](https://arxiv.org/abs/2305.19308) | NIPS 2023  |2023-05-30 | Manipulating Excels with LLM | [Github](https://github.com/BraveGroup/SheetCopilot)  |
 | [TableGPT: Towards Unifying Tables, Nature Language and Commands into One GPT](https://arxiv.org/abs/2307.08674) | arxiv | 2023-07-17 | Manipulating CSV table with LLM | |
 
 ## 5. RAG with Tabular Data
@@ -153,7 +157,7 @@ Different types of tables are widely used to store and present information. To a
 | [Knowledge-Aware Reasoning over Multimodal Semi-structured Tables](https://arxiv.org/abs/2408.13860) | EMNLP 2024 Findings | 2024-08-25 | Understanding table images with visual elements like symbols and icons | |
 | [Leopard: A Vision Language Model For Text-Rich Multi-Image Tasks](https://github.com/tencent-ailab/Leopard) | arxiv | 2024-10-02 | Multi Table Image QA | [Github](https://github.com/tencent-ailab/Leopard) |
 | ![Star](https://img.shields.io/github/stars/alonsoapp/PixT3.svg?style=social&label=Star) <br> [PixT3: Pixel-based Table-To-Text Generation](https://arxiv.org/abs/2311.09808) | ACL 2024 | 2023-11-16 | T2T | [Github](https://github.com/alonsoapp/PixT3) |
-| [TabPedia: Towards Comprehensive Visual Table Understanding with Concept Synergy](https://arxiv.org/abs/2406.01326) | arxiv | 2024-06-03 | TQA,TI |
+| [TabPedia: Towards Comprehensive Visual Table Understanding with Concept Synergy](https://arxiv.org/abs/2406.01326) | NIPS 2024 | 2024-06-03 | TQA,TI |
 | ![Star](https://img.shields.io/github/stars/naver-ai/tablevqabench.svg?style=social&label=Star) <br> [TableVQA-Bench: A Visual Question Answering Benchmark on Multiple Table Domains](https://arxiv.org/abs/2404.19205) | arxiv  | 2024-04-30 | TQA, TFV | [Github](https://github.com/naver-ai/tablevqabench) |
 | [Tables as Texts or Images: Evaluating the Table Reasoning Ability of LLMs and MLLMs](https://arxiv.org/abs/2402.12424) | ACL 2024 | 2024-02-19 | TQA,TFV,T2T | |
 | ![Star](https://img.shields.io/github/stars/SpursGoZmy/Table-LLaVA.svg?style=social&label=Star) <br> [Multimodal Table Understanding](https://arxiv.org/abs/2406.08100) | ACL 2024  | 2024-02-15 | TQA, TFV, T2T, TI, TAT-QA, TMR | [Github](https://github.com/SpursGoZmy/Table-LLaVA)   |
@@ -162,6 +166,7 @@ Different types of tables are widely used to store and present information. To a
 ### 8.1 Recent Datasets for LLMs
 | Title | Conference | Date | Task | Data Volume | Domain | Table Type | Data and Code |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [MiMoTable: A Multi-scale Spreadsheet Benchmark with Meta Operations for Table Reasoning](https://arxiv.org/abs/2412.11711) | COLING 2024 | 2024-12-16 | TQA,T2T,Table manipulation, Data analysis |  1,719 (spreadsheet, question, answer) triplets from 428 different spreadsheets | Multiple domains | Flat and hierarchical tables | [Github](https://github.com/jasonNLP/MiMoTable) |
 | [ENTRANT: A Large Financial Dataset for Table Understanding](https://www.nature.com/articles/s41597-024-03605-5) | Sci Data | 2024-07-04 | Cell Type Classification, Header Extraction, et al | Millions of tables with cell attributes, as well as positional and hierarchical information | Financial | Flat tables and hierarchical tables | [Github](https://github.com/iit-Demokritos/entrant?tab=readme-ov-file#data) |
 | [TableBench: A Comprehensive and Complex Benchmark for Table Question Answering](https://arxiv.org/abs/2408.09174) | arxiv | 2024-08-17 | TMR, TFV, Trend Forecasting and Chart Generation | 3681 tables and 20K samples | Collect tables from academic datasets like WTQ and FeTaQA | Flat tables and a small number of hierarchical tables | [Github](https://tablebench.github.io/) |
 | [DocTabQA: Answering Questions from Long Documents Using Tables](https://arxiv.org/abs/2408.11490) | arxiv | 2024-08-21 | Table Generation based on question and document | 300 documents and 1.5k question-table pairs | Financial | Flat tables and hierarchical tables | [Github](https://github.com/SmileWHC/DocTabQA) |
