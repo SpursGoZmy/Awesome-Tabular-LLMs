@@ -91,6 +91,7 @@ Different types of tables are widely used to store and present information. To a
 
 | Title | Conference | Date |  Task | LLM Backbone  | Code |
 | --- | :---: | :---: | :---: | :---: | :---: |
+| [TableGPT2: A Large Multimodal Model with Tabular Data Integration](https://arxiv.org/abs/2411.02059v1) | arxiv | 2024-11-04 | TQA, TFV, et al. | Qwen2.5 model family with a special pre-trained table encoder. | [Github](https://github.com/tablegpt/tablegpt-agent) | 
 | [Large Scale Transfer Learning for Tabular Data via Language Modeling](https://arxiv.org/abs/2406.12031) | NIPS 2024 | 2024-06-17 | tabular data prediction (classification and binned regression) | Llama 3-8B | |
 | [ProTrix: Building Models for Planning and Reasoning over Tables with Sentence Context](https://arxiv.org/abs/2403.02177) | EMNLP 2024 Findings | 2024-03-04 | TQA, TFV | Llama-2 | [Github](https://github.com/WilliamZR/ProTrix) | 
 | [UniTabNet: Bridging Vision and Language Models for Enhanced Table Structure Recognition](https://arxiv.org/abs/2409.13148) | EMNLP 2024 Findings | 2024-09-20 | Table Recognition | |
