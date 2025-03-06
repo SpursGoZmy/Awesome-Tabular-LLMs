@@ -45,7 +45,7 @@ Different types of tables are widely used to store and present information. To a
 | Title | Conference | Date |  Task | Code |
 | --- | :---: | :---: | :---: | --- |
 | [Retrieval & Fine-Tuning for In-Context Tabular Models](https://arxiv.org/abs/2406.05207) | NIPS 2024 | 2024-06-07 | Machine learning tasks with tabular data | |
-| ![Star](https://img.shields.io/github/stars/JDing0521/GraphOTTER.svg?style=social&label=Star) <br> [GraphOTTER: Evolving LLM-based Graph Reasoning for Complex Table Question Answering](https://arxiv.org/abs/2412.01230) | COLING 2025 | 2024-12-02 | TQA | |
+| ![Star](https://img.shields.io/github/stars/JDing0521/GraphOTTER.svg?style=social&label=Star) <br> [GraphOTTER: Evolving LLM-based Graph Reasoning for Complex Table Question Answering](https://arxiv.org/abs/2412.01230) | COLING 2025 | 2024-12-02 | TQA | [Github](https://github.com/JDing0521/GraphOTTER) |
 | [PoTable: Programming Standardly on Table-based Reasoning Like a Human Analyst](https://arxiv.org/abs/2412.04272) | arxiv | 2024-12-05 | TQA, TFV | |
 | [Unveiling Implicit Table Knowledge with Question-Then-Pinpoint Reasoner for Insightful Table Summarization](https://arxiv.org/abs/2406.12269) | EMNLP 2024 Findings | 2024-06-18 | Table Summarization | | 
 | [TKGT: Redefinition and A New Way of Text-to-Table Tasks Based on Real World Demands and Knowledge Graphs Augmented LLMs](https://openreview.net/forum?id=cfMRTgLYSf) | EMNLP 2024 | | Text2Table | |
