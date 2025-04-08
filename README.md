@@ -149,6 +149,7 @@ Different types of tables are widely used to store and present information. To a
 ## 6. Empirical Study or Benchmarks for Evaluating LLMs' Table Understanding Ability
 | Title | Conference | Date |  Task | Code |
 | --- | :---: | :---: | :---: | :---: |
+| ![Stars](https://img.shields.io/github/stars/socialfoundations/folktexts) <br> [Evaluating language models as risk scores](https://openreview.net/pdf?id=qrZxL3Bto9) | NeurIPS 2024 | 2024-12-10 | TQA | [Github](https://github.com/socialfoundations/folktexts) |
 | [Rethinking Tabular Data Understanding with Large Language Models](https://arxiv.org/abs/2312.16702) | NAACL 2024 | 2023-12-27 | TQA | |
 | [On the Robustness of Language Models for Tabular Question Answering](https://arxiv.org/abs/2406.12719) | arxiv | 2024-06-18 | TQA | |
 | [FREB-TQA: A Fine-Grained Robustness Evaluation Benchmark for Table Question Answering](https://arxiv.org/abs/2404.18585) | NAACL 2024 | 2024-04-29 | TQA | |
