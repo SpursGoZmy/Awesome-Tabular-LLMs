@@ -11,7 +11,7 @@ Different types of tables are widely used to store and present information. To a
 5. [**RAG with tabular data**](#5-rag-with-tabular-data), e.g., devolping RAG systems for understanding long tables.
 6. [**Empirical study or benchmarks for evaluating LLMs' table understanding ability**](#6-empirical-study-or-benchmarks-for-evaluating-llms-table-understanding-ability), e.g., exploring the influence of various table types or table formats.
 7. [**Multimodal table understanding**](#7-multimodal-table-understanding), e.g., training MLLMs to understand diverse table images and textual user requests.
-8. [**Table Understanding datasets**](#8-table-understanding-datasets), e.g., valuable datasets for model training and evaluation.
+8. [**Table Understanding datasets and benchmarks**](#8-table-understanding-datasets-and-benchmarks), e.g., valuable datasets and benchmarks for model training and evaluation.
 9. [**Evaluation Metrics for Table Understanding**](#9-designing-evaluation-metrics-for-table-understanding), e.g., devising better evaluation method for table understanding.
 ---
 
@@ -95,6 +95,7 @@ Different types of tables are widely used to store and present information. To a
 
 | Title | Conference | Date |  Task | LLM Backbone  | Code |
 | --- | :---: | :---: | :---: | :---: | :---: |
+| ![Star](https://img.shields.io/github/stars/NEUIR/HIPPO.svg?style=social&label=Star) <br/> [HIPPO: Enhancing the Table Understanding Capability of Large Language Models through Hybrid-Modal Preference Optimization](https://arxiv.org/abs/2502.17315) | arxiv | 2025-02-24 | TQA,TFV | MiniCPM-V-2.6 with DPO training | [Github](https://github.com/NEUIR/HIPPO)  |
 | [TableLoRA: Low-rank Adaptation on Table Structure Understanding for Large Language Models](https://arxiv.org/abs/2503.04396) | arxiv | 2025-03-06 | TQA,TFV | DeepSeek, Llama2/3 with a specially designed LoRA module for table understanding | |
 | [RePanda: Pandas-powered Tabular Verification and Reasoning](https://arxiv.org/abs/2503.11921) | arxiv | 2025-03-14 | TFV | DeepSeek-coder-7B-instruct-v1.5 | |
 | [LaTeXNet: A Specialized Model for Converting Visual Tables and Equations to LaTeX Code](https://ieeexplore.ieee.org/abstract/document/10887698) | arxiv | ICASSP 2025 | Table-image-to-LaTeX |  |  |
@@ -107,7 +108,7 @@ Different types of tables are widely used to store and present information. To a
 | [UniTabNet: Bridging Vision and Language Models for Enhanced Table Structure Recognition](https://arxiv.org/abs/2409.13148) | EMNLP 2024 Findings | 2024-09-20 | Table Recognition | |
 | [Table Question Answering for Low-resourced Indic Languages](https://arxiv.org/abs/2410.03576) | EMNLP 2024 | 2024-10-04 | Indian TQA | mBART | [Github](https://github.com/kolk/Low-Resource-TableQA-Indic-languages) | 
 | [TabMoE: A General Framework for Diverse Table-Based Reasoning with Mixture-of-Experts](https://www.mdpi.com/2227-7390/12/19/3031) | Mathematics | 2024-08-16 | TQA, TFV, T2T | BART | |
-| ![Star](https://img.shields.io/github/stars/rllm-team/rllm.svg?style=social&label=Star) <br/>[rLLM: Relational Table Learning with LLMs](https://arxiv.org/abs/2407.20157) | arxiv | 2024-07-29 | multi-table joint learning tasks | a PyTorch library designed for Relational Table Learning (RTL) with Large Language Models (LLMs).    |  [Github](https://github.com/rllm-team/rllm) |
+| ![Star](https://img.shields.io/github/stars/rllm-team/rllm.svg?style=social&label=Star) <br/> [rLLM: Relational Table Learning with LLMs](https://arxiv.org/abs/2407.20157) | arxiv | 2024-07-29 | multi-table joint learning tasks | a PyTorch library designed for Relational Table Learning (RTL) with Large Language Models (LLMs).    |  [Github](https://github.com/rllm-team/rllm) |
 | ![Star](https://img.shields.io/github/stars/basf/mamba-tabular.svg?style=social&label=Star) <br> [Mambular: A Sequential Model for Tabular Deep Learning](https://arxiv.org/abs/2408.06291) | arxiv | 2024-08-12 | ML Classification and Regression tasks like California Housing | Mamba | [Github](https://github.com/basf/mamba-tabular)
 | [MambaTab: A Plug-and-Play Model for Learning Tabular Data](https://arxiv.org/abs/2401.08867) | MIPR 2024 | 2024-01-16 | ML Classification tasks | Mamba |  | 
 | [SpreadsheetLLM: Encoding Spreadsheets for Large Language Models](https://arxiv.org/abs/2407.09025) | arxiv | 2024-07-12 | Excel Manipulation |   | |
@@ -176,10 +177,11 @@ Different types of tables are widely used to store and present information. To a
 | [Tables as Texts or Images: Evaluating the Table Reasoning Ability of LLMs and MLLMs](https://arxiv.org/abs/2402.12424) | ACL 2024 | 2024-02-19 | TQA,TFV,T2T | |
 | ![Star](https://img.shields.io/github/stars/SpursGoZmy/Table-LLaVA.svg?style=social&label=Star) <br> [Multimodal Table Understanding](https://arxiv.org/abs/2406.08100) | ACL 2024  | 2024-02-15 | TQA, TFV, T2T, TI, TAT-QA, TMR | [Github](https://github.com/SpursGoZmy/Table-LLaVA)   |
 
-## 8. Table Understanding Datasets
-### 8.1 Recent Datasets for LLMs
+## 8. Table Understanding Datasets and Benchmarks
+### 8.1 Recent Datasets and Benchmarks for LLMs
 | Title | Conference | Date | Task | Data Volume | Domain | Table Type | Data and Code |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [MT-RAIG: Novel Benchmark and Evaluation Framework for Retrieval-Augmented Insight Generation over Multiple Tables](https://arxiv.org/abs/2502.11735) | arxiv | 2025-02-17 | Insight Generation over Mulitple-Tables | 19,563 tables and 18,532 questions | Tables from SPIDER and Wikipedia | Flat tables | [Github](https://github.com/KWONDU/mt-raig) |
 | [TransientTables: Evaluating LLMs' Reasoning on Temporally Evolving Semi-structured Tables](https://arxiv.org/abs/2504.01879) | arxiv | 2025-04-02 | TQA over temporally evolving semi-structured tables | 3,971 questions, 14,000 tables | Wikipedia |  Infobox tables | [Github](https://transienttables.github.io/) |
 | [MMQA: Evaluating LLMs with Multi-Table Multi-Hop Complex Questions](https://openreview.net/forum?id=GGlpykXDCa) | ICLR 2025 | - | Multi-table retrieval, NL2SQL, Multi-table QA, and Key Selection (primary key and foreign key) | 3,312 tables | Wikipedia | Flat tables |  |
 | [MiMoTable: A Multi-scale Spreadsheet Benchmark with Meta Operations for Table Reasoning](https://arxiv.org/abs/2412.11711) | COLING 2024 | 2024-12-16 | TQA,T2T,Table manipulation, Data analysis |  1,719 (spreadsheet, question, answer) triplets from 428 different spreadsheets | Multiple domains | Flat and hierarchical tables | [Github](https://github.com/jasonNLP/MiMoTable) |
