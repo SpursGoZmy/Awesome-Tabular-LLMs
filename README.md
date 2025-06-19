@@ -193,6 +193,7 @@ Different types of tables are widely used to store and present information. To a
 ### 8.1 Recent Datasets and Benchmarks for LLMs
 | Title | Source | Date | Task | Data Volume | Domain | Table Type | Data and Code |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [RealHiTBench: A Comprehensive Realistic Hierarchical Table Benchmark for Evaluating LLM-Based Table Analysis](https://arxiv.org/abs/2506.13405) | ACL 2025 | 2025-06-19 | Table analysis over complex tables | 708 tables,  3,752 QA pairs | 24 domains like economy, society, science | complex tables in image and textual format | [Github](https://github.com/cspzyy/RealHiTBench) |
 | [Automated Text-to-Table for Reasoning-Intensive Table QA: Pipeline Design and Benchmarking Insights](https://arxiv.org/abs/2505.19563) | arxiv | 2025-05-26 | Text2Table | | | | [Github](https://github.com/jokersio-tsy/AutoT2T) |
 | [MT-RAIG: Novel Benchmark and Evaluation Framework for Retrieval-Augmented Insight Generation over Multiple Tables](https://arxiv.org/abs/2502.11735) | arxiv | 2025-02-17 | Insight Generation over Mulitple-Tables | 19,563 tables and 18,532 questions | Tables from SPIDER and Wikipedia | Flat tables | [Github](https://github.com/KWONDU/mt-raig) |
 | [TransientTables: Evaluating LLMs' Reasoning on Temporally Evolving Semi-structured Tables](https://arxiv.org/abs/2504.01879) | arxiv | 2025-04-02 | TQA over temporally evolving semi-structured tables | 3,971 questions, 14,000 tables | Wikipedia |  Infobox tables | [Github](https://transienttables.github.io/) |
