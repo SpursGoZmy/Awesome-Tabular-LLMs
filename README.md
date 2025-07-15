@@ -99,10 +99,12 @@ Different types of tables are widely used to store and present information. To a
 
 | Title | Source | Date | Task | LLM Backbone  | Code |
 | --- | :---: | :---: | :---: | :---: | :---: |
-| [Multimodal Tabular Reasoning with Privileged Structured Information](https://arxiv.org/abs/2506.04088) | arxiv | 2025-06-04 | Multimodal Table Understanding  |  | |
+| [TableMoE: Neuro-Symbolic Routing for Structured Expert Reasoning in Multimodal Table Understanding](https://arxiv.org/abs/2506.21393) | arxiv | 2025-06-26 | Multimodal Table Understanding | LLaMA 3.1–8B–Instruct, Qwen2.5–VL–7B–Instruct | [Github](https://github.com/ai-agi/TableMoE) |
+| [Multimodal Tabular Reasoning with Privileged Structured Information](https://arxiv.org/abs/2506.04088) | arxiv | 2025-06-04 | Multimodal Table Understanding  |  |  |
 | [PPT: A Process-based Preference Learning Framework for Self Improving Table Question Answering Models](https://www.arxiv.org/abs/2505.17565) | arxiv | 2025-05-23 | Qwen2.5-7B, Llama3.1-8B | |
 | [Fortune: Formula-Driven Reinforcement Learning for Symbolic Table Reasoning in Language Models](https://arxiv.org/abs/2505.23667) | arxiv | 2025-05-29 | TQA, TFV | Multiple LLMs | |
 | [Reasoning-Table: Exploring Reinforcement Learning for Table Reasoning](https://arxiv.org/abs/2506.01710) | arxiv | 2025-06-02 | TQA,TFV,T2T,NL2SQL | Qwen2.5-7B | [Github](https://github.com/MJinXiang/Reasoning-Table) |
+| [OpenTable-R1: A Reinforcement Learning Augmented Tool Agent for Open-Domain Table Question Answering](https://arxiv.org/abs/2507.03018) | arxiv | 2025-07-02 | Open-Domain TQA | | [Github](https://github.com/TabibitoQZP/OpenTableR1) |
 | [Table-r1: Self-supervised and Reinforcement Learning for Program-based Table Reasoning in Small Language Models](https://arxiv.org/abs/2506.06137) | arxiv | 2025-06-06 | TQA | Qwen2.5-Coder-7B-Inst, LLaMA3.1-8B-Inst | [Github](https://github.com/AriKing11/Table_r1_public) |
 | ![Star](https://img.shields.io/github/stars/Table-R1/Table-R1.svg?style=social&label=Star) <br/> [Table-R1: Inference-Time Scaling for Table Reasoning](https://arxiv.org/abs/2505.23621) | arxiv | 2025-05-29 | TQA,TFV,T2T| Qwen2.5-7B | [Github](https://github.com/Table-R1/Table-R1) |
 | [Table-R1: Region-based Reinforcement Learning for Table Understanding](https://arxiv.org/abs/2505.12415) | arxiv | 2025-05-18 | TQA | Multiple LLMs  |   |
