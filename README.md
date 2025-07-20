@@ -155,6 +155,7 @@ Different types of tables are widely used to store and present information. To a
 | Title | Source | Date |  Task | Code |
 | --- | :---: | :---: | :---: | :---: |
 | [TableRAG: A Retrieval Augmented Generation Framework for Heterogeneous Document Reasoning](https://arxiv.org/abs/2506.10380) | arxiv | 2025-06-12 | TQA | [Github](https://github.com/yxh-y/TableRAG/tree/main) |
+| [HD-RAG: Retrieval-Augmented Generation for Hybrid Documents Containing Text and Hierarchical Tables](https://arxiv.org/abs/2504.09554) | arxiv | 2025-04-13 | TQA | |
 | [GTR: Graph-Table-RAG for Cross-Table Question Answering](https://arxiv.org/abs/2504.01346) | arxiv | 2025-04-02 | Cross-table Question Answering | |
 | [TableRAG: Million-Token Table Understanding with Language Models](https://arxiv.org/abs/2410.04739) | NIPS 2024 | 2024-10-07 | TQA for extremely long tables | |
 | [Evaluation of Table Representations to Answer Questions from Tables in Documents : A Case Study using 3GPP Specifications](https://arxiv.org/abs/2408.17008) | arxiv | 2024-08-30 | how to represent tables for better retrieval within RAG systems | |
