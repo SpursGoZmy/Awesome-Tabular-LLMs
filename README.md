@@ -34,6 +34,7 @@ Different types of tables are widely used to store and present information. To a
 ## 1. Survey of Tabular LLMs and Table Understanding
 | Title | Source | Date  | Pages |
 | ------ | :---: | :---: | :---: |
+| [Toward Real-World Table Agents: Capabilities, Workflows, and Design Principles for LLM-based Table Intelligence](https://arxiv.org/abs/2507.10281) | arxiv | 2025-07-14 | 34 |
 | [Language Modeling on Tabular Data: A Survey of Foundations, Techniques and Evolution](https://arxiv.org/abs/2408.10548) | arxiv | 2024-08-20 | 49 |
 | [Large Language Model for Table Processing: A Survey](https://arxiv.org/abs/2402.05121) | arxiv | 2024-02-04  | 9 | 
 | [A Survey of Table Reasoning with Large Language Models](https://arxiv.org/abs/2402.08259) | arxiv | 2024-02-13 | 9 |
