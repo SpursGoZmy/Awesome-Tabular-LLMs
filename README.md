@@ -201,6 +201,7 @@ Different types of tables are widely used to store and present information. To a
 ### 8.1 Recent Datasets and Benchmarks for LLMs
 | Title | Source | Date | Task | Data Volume | Domain | Table Type | Data and Code |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [T2R-bench: A Benchmark for Generating Article-Level Reports from Real World Industrial Tables](https://www.arxiv.org/abs/2508.19813) | EMNLP 2025 | 2025-08-27 | Table2Reports | 457 real-world industrial tables | 19 industry domains | four table types | [Github](https://github.com/Tele-AI/TeleTableBench) |
 | [MTabVQA: Evaluating Multi-Tabular Reasoning of Language Models in Visual Space](https://arxiv.org/abs/2506.11684) | arxiv | 2025-06-13 | Multi-Tabular Reasoning | 3,745 complex question-answer pairs | | | [huggingface](https://huggingface.co/datasets/mtabvqa/MTabVQA-Eval) |
 | [TReB: A Comprehensive Benchmark for Evaluating Table Reasoning Capabilities of Large Language Models](https://arxiv.org/abs/2506.18421) | arxiv | 2025-06-23 |  26 table-related tasks such as data analysis | 7,790 samples | | | |
 | [TableEval: A Real-World Benchmark for Complex, Multilingual, and Multi-Structured Table Question Answering](https://arxiv.org/abs/2506.03949) | arxiv | 2025-06-11 | Data Analysis, Information Retrieval, Numerical Analysis | 617 tables and 2,325 QA pairs | financial reports, industry/stock research reports, academic papers and goverment reports | Flat, hierarchical and complex tables | [Github](https://github.com/wenge-research/TableEval) |
