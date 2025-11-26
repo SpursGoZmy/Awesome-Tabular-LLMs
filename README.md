@@ -34,6 +34,7 @@ Different types of tables are widely used to store and present information. To a
 ## 1. Survey of Tabular LLMs and Table Understanding
 | Title | Source | Date  | Pages |
 | ------ | :---: | :---: | :---: |
+| [Table Question Answering in the Era of Large Language Models: A Comprehensive Survey of Tasks, Methods, and Evaluation](https://arxiv.org/abs/2510.09671) | arxiv | 2025-10-28 | 25 |
 | [Toward Real-World Table Agents: Capabilities, Workflows, and Design Principles for LLM-based Table Intelligence](https://arxiv.org/abs/2507.10281) | arxiv | 2025-07-14 | 34 |
 | [Language Modeling on Tabular Data: A Survey of Foundations, Techniques and Evolution](https://arxiv.org/abs/2408.10548) | arxiv | 2024-08-20 | 49 |
 | [Large Language Model for Table Processing: A Survey](https://arxiv.org/abs/2402.05121) | arxiv | 2024-02-04  | 9 | 
@@ -100,23 +101,14 @@ Different types of tables are widely used to store and present information. To a
 
 ## 3. Training LLMs for Better Table Understanding Ability
 
+### 3.1 Supervised Fine-tuning (SFT) for Tabular LLMs
 | Title | Source | Date | Task | LLM Backbone  | Code |
 | --- | :---: | :---: | :---: | :---: | :---: |
 | [QuASAR: A Question-Driven Structure-Aware Approach for Table-to-Text Generation](https://aclanthology.org/2025.acl-long.1300/) | ACL 2025 | | Table-to-text | T5-Base | [Github](https://github.com/weijieliu-cs/QuASAR) |
 | [RelationalCoder: Rethinking Complex Tables via Programmatic Relational Transformation](https://aclanthology.org/2025.acl-long.89/) | ACL 2025 | | TQA with hierarchical tables | | [Github](https://github.com/haoyudong/RelationalCoder) |
 | [Table-LLM-Specialist: Language Model Specialists for Tables using Iterative Generator-Validator Fine-tuning](https://arxiv.org/abs/2410.12164) | EMNLP 2025 | 2024-10-16 | Classification table tasks like Schema matching and Generative table tasks like TQA | GPT-3.5 and GPT-4 | [Github](https://github.com/microsoft/Table-Specialist) |
 | [TableDreamer: Progressive and Weakness-guided Data Synthesis from Scratch for Table Instruction Tuning](https://arxiv.org/abs/2506.08646) | ACL 2025 Findings | 2025-06-10 | Synthesize diverse table instruction tuning data | Llama3.1-8B-Instruct | [Github](https://github.com/SpursGoZmy/TableDreamer) |
-| [Can GRPO Boost Complex Multimodal Table Understanding?](Can GRPO Boost Complex Multimodal Table Understanding?) | EMNLP 2025 | 2025-09-21 | Multimodal Table Understanding | Qwen2-VL-7B |  |
 | [TableMoE: Neuro-Symbolic Routing for Structured Expert Reasoning in Multimodal Table Understanding](https://arxiv.org/abs/2506.21393) | arxiv | 2025-06-26 | Multimodal Table Understanding | LLaMA 3.1–8B–Instruct, Qwen2.5–VL–7B–Instruct | [Github](https://github.com/ai-agi/TableMoE) |
-| [Multimodal Tabular Reasoning with Privileged Structured Information](https://arxiv.org/abs/2506.04088) | arxiv | 2025-06-04 | Multimodal Table Understanding  |  |  |
-| [PPT: A Process-based Preference Learning Framework for Self Improving Table Question Answering Models](https://www.arxiv.org/abs/2505.17565) | arxiv | 2025-05-23 | Qwen2.5-7B, Llama3.1-8B | |
-| [Fortune: Formula-Driven Reinforcement Learning for Symbolic Table Reasoning in Language Models](https://arxiv.org/abs/2505.23667) | arxiv | 2025-05-29 | TQA, TFV | Multiple LLMs | |
-| [Reasoning-Table: Exploring Reinforcement Learning for Table Reasoning](https://arxiv.org/abs/2506.01710) | arxiv | 2025-06-02 | TQA,TFV,T2T,NL2SQL | Qwen2.5-7B | [Github](https://github.com/MJinXiang/Reasoning-Table) |
-| [OpenTable-R1: A Reinforcement Learning Augmented Tool Agent for Open-Domain Table Question Answering](https://arxiv.org/abs/2507.03018) | arxiv | 2025-07-02 | Open-Domain TQA | | [Github](https://github.com/TabibitoQZP/OpenTableR1) |
-| [Table-r1: Self-supervised and Reinforcement Learning for Program-based Table Reasoning in Small Language Models](https://arxiv.org/abs/2506.06137) | arxiv | 2025-06-06 | TQA | Qwen2.5-Coder-7B-Inst, LLaMA3.1-8B-Inst | [Github](https://github.com/AriKing11/Table_r1_public) |
-| ![Star](https://img.shields.io/github/stars/Table-R1/Table-R1.svg?style=social&label=Star) <br/> [Table-R1: Inference-Time Scaling for Table Reasoning](https://arxiv.org/abs/2505.23621) | EMNLP 2025 | 2025-05-29 | TQA,TFV,T2T| Qwen2.5-7B | [Github](https://github.com/Table-R1/Table-R1) |
-| [Table-R1: Region-based Reinforcement Learning for Table Understanding](https://arxiv.org/abs/2505.12415) | arxiv | 2025-05-18 | TQA | Multiple LLMs  |   |
-| ![Star](https://img.shields.io/github/stars/NEUIR/HIPPO.svg?style=social&label=Star) <br/> [HIPPO: Enhancing the Table Understanding Capability of Large Language Models through Hybrid-Modal Preference Optimization](https://arxiv.org/abs/2502.17315) | arxiv | 2025-02-24 | TQA,TFV | MiniCPM-V-2.6 with DPO training | [Github](https://github.com/NEUIR/HIPPO)  |
 | [TableLoRA: Low-rank Adaptation on Table Structure Understanding for Large Language Models](https://arxiv.org/abs/2503.04396) | ACL 2025 | 2025-03-06 | TQA,TFV | DeepSeek, Llama2/3 with a specially designed LoRA module for table understanding | |
 | [RePanda: Pandas-powered Tabular Verification and Reasoning](https://arxiv.org/abs/2503.11921) | arxiv | 2025-03-14 | TFV | DeepSeek-coder-7B-instruct-v1.5 | |
 | [LaTeXNet: A Specialized Model for Converting Visual Tables and Equations to LaTeX Code](https://ieeexplore.ieee.org/abstract/document/10887698) | arxiv | ICASSP 2025 | Table-image-to-LaTeX |  |  |
@@ -142,7 +134,23 @@ Different types of tables are widely used to store and present information. To a
 | [HELLaMA: LLaMA-based Table to Text Generation by Highlighting the Important Evidence](https://arxiv.org/abs/2311.08896)  | arxiv | 2023-11-15 | T2T | Llama2 7B-13B |  |
 | [Table-GPT: Table-tuned GPT for Diverse Table Tasks](https://arxiv.org/abs/2310.09263)   | arxiv  | 2023-10-13  | TQA | GPT-3.5, ChatGPT |   |
 
-### Pre-trained Tabular Language Models (non-LLM)
+### 3.2 Reinforcement Learning (RL) for Tabular LLM 
+| Title | Source | Date | Task | LLM Backbone  | Code |
+| --- | :---: | :---: | :---: | :---: | :---: |
+| [Exploring Generative Process Reward Modeling for Semi-Structured Data: A Case Study of Table Question Answering](https://arxiv.org/abs/2510.20304) | arxiv | 2025-10-23 | Evalating current PRM for TQA | | |
+| [STaR: Towards Cognitive Table Reasoning via Slow-Thinking Large Language Models](https://arxiv.org/abs/2511.11233) | arxiv | 2025-11-14 | TQA | Qwen3-0.5B/8B | [Github](https://github.com/zhjai/STaR) |
+| [TaTToo: Tool-Grounded Thinking PRM for Test-Time Scaling in Tabular Reasoning](https://arxiv.org/abs/2510.06217) | arxiv | 2025-10-07 | Building a better PRM for tabular task |  Qwen-3-8B |  |
+| [Can GRPO Boost Complex Multimodal Table Understanding?](https://arxiv.org/abs/2509.16889) | EMNLP 2025 | 2025-09-21 | Multimodal Table Understanding | Qwen2-VL-7B |  |
+| [PPT: A Process-based Preference Learning Framework for Self Improving Table Question Answering Models](https://www.arxiv.org/abs/2505.17565) | arxiv | 2025-05-23 | Qwen2.5-7B, Llama3.1-8B | |
+| [Fortune: Formula-Driven Reinforcement Learning for Symbolic Table Reasoning in Language Models](https://arxiv.org/abs/2505.23667) | arxiv | 2025-05-29 | TQA, TFV | Multiple LLMs | |
+| [Reasoning-Table: Exploring Reinforcement Learning for Table Reasoning](https://arxiv.org/abs/2506.01710) | arxiv | 2025-06-02 | TQA,TFV,T2T,NL2SQL | Qwen2.5-7B | [Github](https://github.com/MJinXiang/Reasoning-Table) |
+| [OpenTable-R1: A Reinforcement Learning Augmented Tool Agent for Open-Domain Table Question Answering](https://arxiv.org/abs/2507.03018) | arxiv | 2025-07-02 | Open-Domain TQA | | [Github](https://github.com/TabibitoQZP/OpenTableR1) |
+| [Table-r1: Self-supervised and Reinforcement Learning for Program-based Table Reasoning in Small Language Models](https://arxiv.org/abs/2506.06137) | arxiv | 2025-06-06 | TQA | Qwen2.5-Coder-7B-Inst, LLaMA3.1-8B-Inst | [Github](https://github.com/AriKing11/Table_r1_public) |
+| ![Star](https://img.shields.io/github/stars/Table-R1/Table-R1.svg?style=social&label=Star) <br/> [Table-R1: Inference-Time Scaling for Table Reasoning](https://arxiv.org/abs/2505.23621) | EMNLP 2025 | 2025-05-29 | TQA,TFV,T2T| Qwen2.5-7B | [Github](https://github.com/Table-R1/Table-R1) |
+| [Table-R1: Region-based Reinforcement Learning for Table Understanding](https://arxiv.org/abs/2505.12415) | arxiv | 2025-05-18 | TQA | Multiple LLMs  |   |
+| ![Star](https://img.shields.io/github/stars/NEUIR/HIPPO.svg?style=social&label=Star) <br/> [HIPPO: Enhancing the Table Understanding Capability of Large Language Models through Hybrid-Modal Preference Optimization](https://arxiv.org/abs/2502.17315) | arxiv | 2025-02-24 | TQA,TFV | MiniCPM-V-2.6 with DPO training | [Github](https://github.com/NEUIR/HIPPO)  |
+
+### 3.3 Pre-trained Tabular Language Models (non-LLM)
 | Title | Source | Date |  Task | Code |
 | --- | :---: | :---: | :---: | :---: |
 | [Structural Deep Encoding for Table Question Answering](https://arxiv.org/abs/2503.01457) | ACL 2025 Findings | 2025-03-03 | WTQ, WikiSQL | |
@@ -197,6 +205,7 @@ Different types of tables are widely used to store and present information. To a
 | [Texts or Images? A Fine-grained Analysis on the Effectiveness of Input Representations and Models for Table Question Answering](https://arxiv.org/abs/2505.14131) | ACL 2025 Findings | 2025-05-20 | TQA | [Github](https://github.com/boschresearch/FRES) | 
 | [Compositional Condition Question Answering in Tabular Understanding](https://openreview.net/forum?id=aXU48nrA2v) | ICML 2025 |  |  | [Github](https://github.com/LAMDA-Tabular/MMTU) |
 | [Enhancing Large Vision-Language Models with Layout Modality for Table Question Answering on Japanese Annual Securities Reports](https://arxiv.org/abs/2505.17625) | IIAI AAI 2025 | 2025-05-23 | |
+| [TableMoE: Neuro-Symbolic Routing for Structured Expert Reasoning in Multimodal Table Understanding](https://arxiv.org/abs/2506.21393) | arxiv | 2025-06-26 | Multimodal Table Understanding | LLaMA 3.1–8B–Instruct, Qwen2.5–VL–7B–Instruct | [Github](https://github.com/ai-agi/TableMoE) |
 | [Multimodal Tabular Reasoning with Privileged Structured Information](https://arxiv.org/abs/2506.04088) | arxiv | 2025-06-04 | |
 | [SynTab-LLaVA: Enhancing Multimodal Table Understanding with Decoupled Synthesis](https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_SynTab-LLaVA_Enhancing_Multimodal_Table_Understanding_with_Decoupled_Synthesis_CVPR_2025_paper.html) | CVPR 2025 | | Understanding table images | |
 | [MMTBENCH: A Unified Benchmark for Complex Multimodal Table Reasoning](https://arxiv.org/abs/2505.21771) | arxiv | 2025-05-27 | Complex Multimodal Table Reasoning | |
