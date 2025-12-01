@@ -7,7 +7,7 @@ Different types of tables are widely used to store and present information. To a
 1. [**Survey of Tabular LLMs and table understanding**](#1-survey-of-tabular-llms-and-table-understanding)
 2. [**Prompting LLMs for different tabular tasks**](#2-prompting-llms-for-different-tabular-tasks), e.g., in-context learning, prompt engineering and integrating external tools.
 3. [**Training LLMs for better table understanding ability**](#3-training-llms-for-better-table-understanding-ability), e.g., training existing LLMs by instruction fine-tuning or post-pretraining.
-4. [**Developing Agents for tabular data**](#4-developing-agents-for-processing-tabular-data), e.g., devolping copilot for processing excel tables.
+4. [**Developing Agents for tabular data**](#4-developing-agents-for-understanding-and-processing-tabular-data), e.g., devolping copilot for processing excel tables.
 5. [**RAG with tabular data**](#5-rag-with-tabular-data), e.g., devolping RAG systems for understanding long tables.
 6. [**Empirical study for evaluating LLMs' table understanding ability**](#6-empirical-study-for-evaluating-llms-table-understanding-ability), e.g., exploring the influence of various table types or table formats.
 7. [**Multimodal table understanding**](#7-multimodal-table-understanding), e.g., training MLLMs to understand diverse table images and textual user requests.
@@ -46,13 +46,13 @@ Different types of tables are widely used to store and present information. To a
 ## 2. Prompting LLMs for Different Tabular Tasks
 | Title | Source | Date |  Task | Code |
 | --- | :---: | :---: | :---: | --- |
+| [Causality Meets the Table: Debiasing LLMs for Faithful TableQA via Front-Door Intervention](https://openreview.net/forum?id=zlMupLoKRf) | NIPS 2025 | | Debiasing TQA | |
 | [Map&Make: Schema Guided Text to Table Generation](https://arxiv.org/abs/2505.23174) | ACL 2025 | 2025-05-29 | Text-to-Table | |
 | [Plugging Schema Graph into Multi-Table QA: A Human-Guided Framework for Reducing LLM Reliance](https://arxiv.org/abs/2506.04427) | EMNLP 2025 Findings |  | Multi-Table QA | [Github](https://github.com/hiXixi66/SGAM-Multi-table-QA) |
 | [GRIT: Guided Relational Integration for Efficient Multi-Table Understanding](https://aclanthology.org/2025.emnlp-main.1118/) | EMNLP 2025 | | Multi-Table QA | |
 | [RoT: Enhancing Table Reasoning with Iterative Row-Wise Traversals](https://arxiv.org/abs/2505.15110) | EMNLP 2025 | 2025-05-21 | TQA | |
 | [Weaver: Interweaving SQL and LLM for Table Reasoning](https://arxiv.org/abs/2505.18961) | EMNLP 2025 | 2025-05-25 | TQA,TFV | |
 | [Map&Make: Schema Guided Text to Table Generation](https://arxiv.org/pdf/2505.23174) | ACL 2025 | 2025-05-29 |Text2Table | |
-| [Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning](https://arxiv.org/abs/2502.11799) | ACL 2025 | 2025-02-17 | TQA,TFV | [Github](https://github.com/Peiying-Yu/Table-Critic) |
 | [Triples as the Key: Structuring Makes Decomposition and Verification Easier in LLM-based TableQA](https://openreview.net/forum?id=UwcZEoNP19) | ICLR 2025 | - | TQA | |
 | [Piece of Table: A Divide-and-Conquer Approach for Selecting Subtables in Table Question Answering](https://arxiv.org/abs/2412.07629) | arxiv | 2024-12-10 | TQA | |
 | [Tree-of-Table: Unleashing the Power of LLMs for Enhanced Large-Scale Table Understanding](https://arxiv.org/abs/2411.08516v1) | arxiv | 2024-11-13 | TQA,TFV,T2T | |
@@ -104,6 +104,8 @@ Different types of tables are widely used to store and present information. To a
 ### 3.1 Supervised Fine-tuning (SFT) for Tabular LLMs
 | Title | Source | Date | Task | LLM Backbone  | Code |
 | --- | :---: | :---: | :---: | :---: | :---: |
+| [TabFlash: Efficient Table Understanding with Progressive Question Conditioning and Token Focusing](https://arxiv.org/abs/2511.13283) | AAAI 2026 | 2025-11-17 | Multimodal Table Understanding | InternVL-2.5 1B and 3B | [Github](https://github.com/mlvlab/TabFlash) |
+| [Table as a Modality for Large Language Models](https://openreview.net/forum?id=kurEZdWU9G) | NIPS 2025 | | TQA | Llama2-7B, Mistral-7B, LLaMA-3.1-8B | |
 | [QuASAR: A Question-Driven Structure-Aware Approach for Table-to-Text Generation](https://aclanthology.org/2025.acl-long.1300/) | ACL 2025 | | Table-to-text | T5-Base | [Github](https://github.com/weijieliu-cs/QuASAR) |
 | [RelationalCoder: Rethinking Complex Tables via Programmatic Relational Transformation](https://aclanthology.org/2025.acl-long.89/) | ACL 2025 | | TQA with hierarchical tables | | [Github](https://github.com/haoyudong/RelationalCoder) |
 | [Table-LLM-Specialist: Language Model Specialists for Tables using Iterative Generator-Validator Fine-tuning](https://arxiv.org/abs/2410.12164) | EMNLP 2025 | 2024-10-16 | Classification table tasks like Schema matching and Generative table tasks like TQA | GPT-3.5 and GPT-4 | [Github](https://github.com/microsoft/Table-Specialist) |
@@ -137,6 +139,7 @@ Different types of tables are widely used to store and present information. To a
 ### 3.2 Reinforcement Learning (RL) for Tabular LLM 
 | Title | Source | Date | Task | LLM Backbone  | Code |
 | --- | :---: | :---: | :---: | :---: | :---: |
+| [Table2LaTeX-RL: High-Fidelity LaTeX Code Generation from Table Images via Reinforced Multimodal Language Models](https://arxiv.org/abs/2509.17589) | NIPS 2025 | 2025-09-22 | Table Recognition (table-image-to-latex) |  InternVL2-1B, Qwen2.5-VL-3B | [Github](https://github.com/newLLing/Table2LaTeX-RL) |
 | [Exploring Generative Process Reward Modeling for Semi-Structured Data: A Case Study of Table Question Answering](https://arxiv.org/abs/2510.20304) | arxiv | 2025-10-23 | Evalating current PRM for TQA | | |
 | [STaR: Towards Cognitive Table Reasoning via Slow-Thinking Large Language Models](https://arxiv.org/abs/2511.11233) | arxiv | 2025-11-14 | TQA | Qwen3-0.5B/8B | [Github](https://github.com/zhjai/STaR) |
 | [TaTToo: Tool-Grounded Thinking PRM for Test-Time Scaling in Tabular Reasoning](https://arxiv.org/abs/2510.06217) | arxiv | 2025-10-07 | Building a better PRM for tabular task |  Qwen-3-8B |  |
@@ -157,10 +160,12 @@ Different types of tables are widely used to store and present information. To a
 | ![Star](https://img.shields.io/github/stars/awslabs/hypergraph-tabular-lm.svg?style=social&label=Star) <br> [HYTREL: Hypergraph-enhanced Tabular Data Representation Learning](https://arxiv.org/abs/2307.08623) | NIPS 2023 | 2023-07-14 |  TA, TI | [Github](https://github.com/awslabs/hypergraph-tabular-lm) |
 | [FLAME: A small language model for spreadsheet formulas](https://arxiv.org/abs/2301.13779)  | AAAI 2024 | 2023-01-31 | Generating Excel Formulas | [Github](https://github.com/microsoft/prose-benchmarks/tree/main/FLAME)  |
 
-## 4. Developing Agents for Processing Tabular Data
+## 4. Developing Agents for Understanding and Processing Tabular Data
 | Title | Source | Date |  Task | Code |
 | --- | :---: | :---: | :---: | :---: |
+| [TabDSR: Decompose, Sanitize, and Reason for Complex Numerical Reasoning in Tabular Data](https://arxiv.org/abs/2511.02219) | EMNLP 2025 Findings | 2025-11-04 | TQA | |
 | [TST: A Schema-Based Top-Down and Dynamic-Aware Agent of Text-to-Table Tasks](https://aclanthology.org/2025.acl-long.829/) | ACL 2025 | | Text-to-Table | [Github](https://github.com/jiangpw41/TST) |
+| [Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning](https://arxiv.org/abs/2502.11799) | ACL 2025 | 2025-02-17 | TQA,TFV | [Github](https://github.com/Peiying-Yu/Table-Critic) |
 | [Beyond Summaries: Multi-Agent Generation of Investment Reports with Text, Tables, and Charts](https://aclanthology.org/2025.finnlp-2.18/) | EMNLP 2025 Findings | | Investment Reports Generation | [Github](https://github.com/RaphaelYangWJ/earnings2insights) |
 | [TALON: A Multi-Agent Framework for Long-Table Exploration and Question Answering](https://aclanthology.org/2025.emnlp-main.1393/) | EMNLP 2025 | | TQA and Text2SQL like WTQ and BirdQA | [Github](https://github.com/Wwestmoon/TALON) |
 | [SheetAgent: A Generalist Agent for Spreadsheet Reasoning and Manipulation via Large Language Models](https://arxiv.org/abs/2403.03636) | arxiv | 2024-03-06 | Manipulating Excels with LLM | [Github](https://github.com/sheetagent/sheetagent.github.io) |
@@ -219,13 +224,16 @@ Different types of tables are widely used to store and present information. To a
 | ![Star](https://img.shields.io/github/stars/SpursGoZmy/Table-LLaVA.svg?style=social&label=Star) <br> [Multimodal Table Understanding](https://arxiv.org/abs/2406.08100) | ACL 2024  | 2024-02-15 | TQA, TFV, T2T, TI, TAT-QA, TMR | [Github](https://github.com/SpursGoZmy/Table-LLaVA)   |
 
 ## 8. Table Understanding Datasets and Benchmarks
-### 8.1 Recent Datasets and Benchmarks for LLMs
+### 8.1 Benchmarks
 | Title | Source | Date | Task | Data Volume | Domain | Table Type | Data and Code |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [RUST-BENCH: Benchmarking LLM Reasoning on Unstructured Text within Structured Tables](https://arxiv.org/abs/2511.04491) | arxiv | 2025-11-06 | Reasoning questions | 7,966 questions and 2,031 tables | Scientic and Sports | Flat and complex tables | [Github](https://github.com/tabular-reasoning/RUST-BENCH) |
+| [MMTU: A Massive Multi-Task Table Understanding and Reasoning Benchmark](https://arxiv.org/abs/2506.05587) | NIPS 2025 | 2025-06-05 | 25 Tabular tasks | 28,136 questions and 61,763 tables | Web tables, spreadsheets and database tables | Flat and complex tables | [Github](https://github.com/MMTU-Benchmark/MMTU) |
 | [WikiMixQA: A Multimodal Benchmark for Question Answering over Tables and Charts](https://arxiv.org/abs/2506.15594) | ACL 2025 Findings | 2025-06-18 | QA over over Tables and Charts | 1,000 multiple-choice questions | diverse domains like Economy, Geography, History, Politics, Science, Sport | | [Github](https://github.com/negar-foroutan/WikiMixQA) |
 | [TabXEval: Why this is a Bad Table? An eXhaustive Rubric for Table Evaluation](https://arxiv.org/abs/2505.22176) | ACL 2025 Findings | 2025-05-28 | evaluate generated tables | | | | [Github](https://coral-lab-asu.github.io/tabxeval/) |
 | [GRI-QA: a Comprehensive Benchmark for Table Question Answering over Environmental Data](https://aclanthology.org/2025.findings-acl.814/) | ACL 2025 Findings | | TQA | 4089 questions, 204 tables | environmental | flat and hierarchical tables | [Github](https://github.com/softlab-unimore/gri_qa) | 
 | [2Columns1Row: A Russian Benchmark for Textual and Multimodal Table Understanding and Reasoning](https://aclanthology.org/2025.findings-emnlp.721/) | EMNLP 2025 Findings | | Textual and Multimodal TQA in Russian | 28,800 instances | | |
+| [NeedleInATable: Exploring Long-Context Capability of Large Language Models towards Long-Structured Tables](https://arxiv.org/abs/2504.06560) | NIPS 2025 | 2025-04-09 | Cell lookup and locating | 750 table and 287K test cases | Wikipedia, statistic reports, and annual reports of airline companies | Flat, hierarchical, horizontal | [Github](https://github.com/wlr737/NeedleInATable) |
 | [LongTableBench: Benchmarking Long-Context Table Reasoning across Real-World Formats and Domains](https://aclanthology.org/2025.findings-emnlp.638/) | EMNLP 2025 Findings | | Long-table QA | 5,950 QA instances spanning 7 table format, and input lengths up to 128K tokens, including multi-turn and multi-table settings |  18 domains | flat tables | [Github](https://github.com/liyaooi/LongTableBench) |
 | [Table-Text Alignment: Explaining Claim Verification Against Tables in Scientific Papers](https://arxiv.org/abs/2506.10486) | EMNLP 2025 Findings | 2025-06-12 | scientific table-based verification | 372 samples | scientic | flat | [Github](https://github.com/Alab-NII/SciTabAlign) |
 | [SportReason: Evaluating Retrieval-Augmented Reasoning across Tables and Text for Sports Question Answering](https://aclanthology.org/2025.emnlp-main.34/) | EMNLP 2025 | - | RAG over table and text data for Sports QA | 3,000 QA pairs | Sports | flat table | [Github](https://github.com/kaiyuef/SportReason) | 
@@ -242,11 +250,15 @@ Different types of tables are widely used to store and present information. To a
 | [MMQA: Evaluating LLMs with Multi-Table Multi-Hop Complex Questions](https://openreview.net/forum?id=GGlpykXDCa) | ICLR 2025 | - | Multi-table retrieval, NL2SQL, Multi-table QA, and Key Selection (primary key and foreign key) | 3,312 tables | Wikipedia | Flat tables |  |
 | [SpreadsheetBench: Towards Challenging Real World Spreadsheet Manipulation](https://arxiv.org/abs/2406.14991) | NIPS 2024 | 2024-06-21 | Spreadsheet Manipulation | 2729 spreadsheets, 912 instructions | Excel Forum & Blog | Flat tables, hierarchical tables, multi-tables | [Github](https://spreadsheetbench.github.io/) |
 | [MiMoTable: A Multi-scale Spreadsheet Benchmark with Meta Operations for Table Reasoning](https://arxiv.org/abs/2412.11711) | COLING 2024 | 2024-12-16 | TQA,T2T,Table manipulation, Data analysis |  1,719 (spreadsheet, question, answer) triplets from 428 different spreadsheets | Multiple domains | Flat and hierarchical tables | [Github](https://github.com/jasonNLP/MiMoTable) |
-| [ENTRANT: A Large Financial Dataset for Table Understanding](https://www.nature.com/articles/s41597-024-03605-5) | Sci Data | 2024-07-04 | Cell Type Classification, Header Extraction, et al | Millions of tables with cell attributes, as well as positional and hierarchical information | Financial | Flat tables and hierarchical tables | [Github](https://github.com/iit-Demokritos/entrant?tab=readme-ov-file#data) |
-| [TableBench: A Comprehensive and Complex Benchmark for Table Question Answering](https://arxiv.org/abs/2408.09174) | arxiv | 2024-08-17 | TMR, TFV, Trend Forecasting and Chart Generation | 3681 tables and 20K samples | Collect tables from academic datasets like WTQ and FeTaQA | Flat tables and a small number of hierarchical tables | [Github](https://tablebench.github.io/) |
 | [DocTabQA: Answering Questions from Long Documents Using Tables](https://arxiv.org/abs/2408.11490) | arxiv | 2024-08-21 | Table Generation based on question and document | 300 documents and 1.5k question-table pairs | Financial | Flat tables and hierarchical tables | [Github](https://github.com/SmileWHC/DocTabQA) |
 
-### 8.2 Classic Datasets of Downstream Table Tasks
+### 8.2 Datasets
+| Title | Source | Date | Task | Data Volume | Domain | Table Type | Data and Code |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [ENTRANT: A Large Financial Dataset for Table Understanding](https://www.nature.com/articles/s41597-024-03605-5) | Sci Data | 2024-07-04 | Cell Type Classification, Header Extraction, et al | Millions of tables with cell attributes, as well as positional and hierarchical information | Financial | Flat tables and hierarchical tables | [Github](https://github.com/iit-Demokritos/entrant?tab=readme-ov-file#data) |
+| [TableBench: A Comprehensive and Complex Benchmark for Table Question Answering](https://arxiv.org/abs/2408.09174) | arxiv | 2024-08-17 | TMR, TFV, Trend Forecasting and Chart Generation | 3681 tables and 20K samples | Collect tables from academic datasets like WTQ and FeTaQA | Flat tables and a small number of hierarchical tables | [Github](https://tablebench.github.io/) |
+
+### 8.3 Classic Datasets of Downstream Table Tasks
 
 ## 9. Designing Evaluation Metrics for Table Understanding
 | Title | Source | Date |  Task | Code |
