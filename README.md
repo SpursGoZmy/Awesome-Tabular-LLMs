@@ -163,6 +163,7 @@ Different types of tables are widely used to store and present information. To a
 ## 4. Developing Agents for Understanding and Processing Tabular Data
 | Title | Source | Date |  Task | Code |
 | --- | :---: | :---: | :---: | :---: |
+| [TraceBack: Multi-Agent Decomposition for Fine-Grained Table Attribution](https://arxiv.org/abs/2602.13059) | arxiv | 2026-02-13 | Fine-grained table attribution | [Github](https://github.com/CoRAL-ASU/TraceBack) |
 | [TabDSR: Decompose, Sanitize, and Reason for Complex Numerical Reasoning in Tabular Data](https://arxiv.org/abs/2511.02219) | EMNLP 2025 Findings | 2025-11-04 | TQA | |
 | [TST: A Schema-Based Top-Down and Dynamic-Aware Agent of Text-to-Table Tasks](https://aclanthology.org/2025.acl-long.829/) | ACL 2025 | | Text-to-Table | [Github](https://github.com/jiangpw41/TST) |
 | [Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning](https://arxiv.org/abs/2502.11799) | ACL 2025 | 2025-02-17 | TQA,TFV | [Github](https://github.com/Peiying-Yu/Table-Critic) |
@@ -227,11 +228,12 @@ Different types of tables are widely used to store and present information. To a
 ### 8.1 Benchmarks
 | Title | Source | Date | Task | Data Volume | Domain | Table Type | Data and Code |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [TabReX : Tabular Referenceless eXplainable Evaluation](https://arxiv.org/abs/2512.15907) | arxiv | 2025-12-17 | referenceless evaluation for generated tables | 710 source tables and 9,120 perturbed instances (12 perturbations/table) | Multi-domain (finance, healthcare/clinical, sports, open-domain narrative, hierarchical tables) | Flat and hierarchical tables | [Github](https://github.com/CoRAL-ASU/TabReX) |
 | [RUST-BENCH: Benchmarking LLM Reasoning on Unstructured Text within Structured Tables](https://arxiv.org/abs/2511.04491) | arxiv | 2025-11-06 | Reasoning questions | 7,966 questions and 2,031 tables | Scientic and Sports | Flat and complex tables | [Github](https://github.com/tabular-reasoning/RUST-BENCH) |
 | [UniDataBench: Evaluating Data Analytics Agents Across Structured and Unstructured Data](https://arxiv.org/abs/2511.01625) | arxiv | 2025-11-03 | Data analysis | 100 analytical tasks over 223 data files | user behavior, sales, business and so on | csv, database, txt, no sql | |
 | [MMTU: A Massive Multi-Task Table Understanding and Reasoning Benchmark](https://arxiv.org/abs/2506.05587) | NIPS 2025 | 2025-06-05 | 25 Tabular tasks | 28,136 questions and 61,763 tables | Web tables, spreadsheets and database tables | Flat and complex tables | [Github](https://github.com/MMTU-Benchmark/MMTU) |
 | [WikiMixQA: A Multimodal Benchmark for Question Answering over Tables and Charts](https://arxiv.org/abs/2506.15594) | ACL 2025 Findings | 2025-06-18 | QA over over Tables and Charts | 1,000 multiple-choice questions | diverse domains like Economy, Geography, History, Politics, Science, Sport | | [Github](https://github.com/negar-foroutan/WikiMixQA) |
-| [TabXEval: Why this is a Bad Table? An eXhaustive Rubric for Table Evaluation](https://arxiv.org/abs/2505.22176) | ACL 2025 Findings | 2025-05-28 | evaluate generated tables | | | | [Github](https://coral-lab-asu.github.io/tabxeval/) |
+| [TabXEval: Why this is a Bad Table? An eXhaustive Rubric for Table Evaluation](https://arxiv.org/abs/2505.22176) | ACL 2025 Findings | 2025-05-28 | evaluate generated tables | 50 reference tables + 250 perturbed tables (5 perturbations/table, 16 error types) | Multi-domain (finance, sports, knowledge-base / open-domain) | Flat tables with structural perturbations | [Github](https://github.com/CoRAL-ASU/TabXEval) |
 | [Are Large Language Models Ready for Multi-Turn Tabular Data Analysis?](https://proceedings.mlr.press/v267/li25aj.html) | ICML | 2025-05-01 | Multi-turn data analysis | 5 common domains such as ATP Tennis and Credit Card | flat tables supporting Pandas operations | [Github](https://tapilot-crossing.github.io/) |
 | [GRI-QA: a Comprehensive Benchmark for Table Question Answering over Environmental Data](https://aclanthology.org/2025.findings-acl.814/) | ACL 2025 Findings | | TQA | 4089 questions, 204 tables | environmental | flat and hierarchical tables | [Github](https://github.com/softlab-unimore/gri_qa) | 
 | [2Columns1Row: A Russian Benchmark for Textual and Multimodal Table Understanding and Reasoning](https://aclanthology.org/2025.findings-emnlp.721/) | EMNLP 2025 Findings | | Textual and Multimodal TQA in Russian | 28,800 instances | | |
@@ -267,6 +269,3 @@ Different types of tables are widely used to store and present information. To a
 | --- | :---: | :---: | :---: | :---: |
 | [Revisiting Automated Evaluation for Long-form Table Question Answering in the Era of Large Language Models](https://openreview.net/forum?id=3PABAHvV6H) | EMNLP 2024 | | TQA | |
 | [Is This a Bad Table? A Closer Look at the Evaluation of Table Generation from Text](https://arxiv.org/abs/2406.14829) | EMNLP 2024 | 2024-06-21 | Text2Table | |
-
-
-
