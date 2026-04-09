@@ -1,3 +1,6 @@
+# 🤝 Contributions Welcome 🚀
+Due to limited time, I cannot keep track of every new paper very promptly, please feel free to submit a **Pull Request** to add your papers or submit **Issues** to remind me, I will add them ASAP. Let's maintain this paper list collaboratively. 🤝 
+
 # A-Paper-List-of-Awesome-Tabular-LLMs
 Different types of tables are widely used to store and present information. To automatically process numerous tables and gain valuable insights, researchers have proposed a series of deep-learning models for various table-based tasks, e.g., table question answering (TQA), table-to-text (T2T), text-to-sql (NL2SQL) and table fact verification (TFV). Recently, the emerging [Large Language Models (LLMs)](https://github.com/Hannibal046/Awesome-LLM#chatgpt-evaluation) and more powerful [Multimodal Large Language Models (MLLMs)](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) have opened up new possibilities for processing the tabular data, i.e., we can use one general model to process diverse tables and fulfill different tabular tasks based on the user natural language instructions. We refer to these LLMs speciallized for tabular tasks as `Tabular LLMs`. **In this repository, we collect a paper list about recent Tabular (M)LLMs and divide them into the following categories based on their key idea.**
 
